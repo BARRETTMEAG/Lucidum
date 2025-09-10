@@ -1,1 +1,1 @@
-This project is to show what species (50 taxa) do and don't have lucidum.
+This project aims to identify which species (50 taxa) possess or lack lucidum (Choroidal tapetum cellulosum).
