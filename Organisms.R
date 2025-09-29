@@ -43,7 +43,6 @@ sumtest1$organism
 sumtest1$accessionversion
 
 
-
 # writing out the file in fasta
 output1 <- entrez_fetch(db="nuccore",id=testsearch1$ids, rettype="fasta")
 cat(strwrap(substr(output1, 1,500)),sept="\n")
@@ -56,6 +55,39 @@ rec1 <-entrez_summary(db="taxonomy", id=taxout1$ids[1])
 rec1$scientificname
 rec1$commonname
 
+mdat<-matrix(, nrow=(length(unique(taxout1$ids))), ncol =5)
+colnames(mdat)<- c("txid", "speciesname","accnum", "seqname", "slen")
+
+#think about what we want
+#txid, speciesname, accum, "seqname", slen (sequence name)
+i<-1
+m_sequence<-character()
+for(i in 1:length(unique(taxout1$ids))){
+  print(i)
+  mdat[i,1]<-taxout1$ids[i]
+  record_0<-entrez_summary(db="taxonomy", id=taxout1$ids[i])
+  mdat[i,2]<-record_0$scientificname
+  se_out<-entrez_search(db="nuccore", term=paste("txid", taxout1$ids[i], "[ORGN] AND MITOCHONDRION[ALL]", 
+                                                  sep = ""), retmax = 1) 
+  if(length(se_out$ids)<1){
+    mdat[i,3]<-NA
+    mdat[i,4]<-NA
+    mdat[i,5]<-NA
+  }
+  else{
+    s_out<-entrez_summary(db="nuccore", id=se_out$ids)
+    mdat[i,3]<-s_out$accessionversion
+    mdat[i,4]<-s_out$title
+    mdat[i,5]<-s_out$slen
+    se_1.2<-entrez_fetch(db="nuccore", id=s_out$accessionverstion,rettype="fasta")
+    se_dat<-sub(">([^\n]*", paste0(">", s_out$organism, se_dat))
+    se_dat<-gsub(" ", "_")
+    mi_sequence<-c(m_sequence, se_dat)
+  }
+}
+
+# 26 Sept 25
+write(mi_sequence, file = "p_mitochondrial_out.fasta")
 
 # Cercopithecidae
 newsearch <-entrez_search(db="nuccore", term= "Cercopithecidae", 
@@ -104,6 +136,39 @@ rec_1 <-entrez_summary(db="taxonomy", id=tax_out1$ids[1])
 rec_1$scientificname
 rec_1$commonname
 
+dat<-matrix(, nrow=(length(unique(tax_out1$ids))), ncol =5)
+colnames(dat)<- c("txid", "speciesname","accnum", "seqname", "slen")
+
+#think about what we want
+#txid, speciesname, accum, "seqname", slen (sequence name)
+i<-1
+mito_sequence<-character()
+for(i in 1:length(unique(tax_out1$ids))){
+  print(i)
+  dat[i,1]<-tax_out1$ids[i]
+  record_1<-entrez_summary(db="taxonomy", id=tax_out1$ids[i])
+  dat[i,2]<-record_1$scientificname
+  seq_out<-entrez_search(db="nuccore", term=paste("txid", tax_out1.2$ids[i], "[ORGN] AND MITOCHONDRION[ALL]", 
+                                                  sep = ""), retmax = 1) 
+  if(length(seq_out$ids)<1){
+    dat[i,3]<-NA
+    dat[i,4]<-NA
+    dat[i,5]<-NA
+  }
+  else{
+    sum_out<-entrez_summary(db="nuccore", id=seq_out$ids)
+    dat[i,3]<-sumout$accessionversion
+    dat[i,4]<-sumout$title
+    dat[i,5]<-sumout$slen
+    seq_1<-entrez_fetch(db="nuccore", id=sum_out$accessionverstion,rettype="fasta")
+    seq_1.dat<-sub(">([^\n]*", paste0(">", sum_out$organism, seq.dat))
+    seq_1.dat<-gsub(" ", "_")
+    mito_sequence<-c(mito_sequence, seq_dat)
+  }
+}
+
+# 26 Sept 25
+write(mito_sequence, file = "c_mitochondrial_out.fasta")
 
 # Petromyzon marinus
 new_search1 <-entrez_search(db="nuccore", term= "Petromyzon marinus", 
@@ -151,3 +216,41 @@ tax_out1.2<-entrez_search(db="taxonomy", term="txid7757[SBTR]", retmax= 2000)
 rec_1.1 <-entrez_summary(db="taxonomy", id=tax_out1.2$ids[1])
 rec_1.1$scientificname
 rec_1.1$commonname
+
+summary(tax_out1.2)
+tax_out1.2$ids
+
+qdat<-matrix(, nrow=(length(unique(tax_out1.2$ids))), ncol =5)
+colnames(dat)<- c("txid", "speciesname","accnum", "seqname", "slen")
+
+#think about what we want
+#txid, speciesname, accum, "seqname", slen (sequence name)
+i<-1
+mit_sequence<-character()
+for(i in 1:length(unique(tax_out1.2$ids))){
+  print(i)
+  qdat[i,1]<-tax_out1.2$ids[i]
+  record_1<-entrez_summary(db="taxonomy", id=tax_out1.2$ids[i])
+  qdat[i,2]<-record_1$scientificname
+  seq_out<-entrez_search(db="nuccore", term=paste("txid", tax_out1.2$ids[i], "[ORGN] AND MITOCHONDRION[ALL]", 
+                                                 sep = ""), retmax = 1) 
+  if(length(seq_out$ids)<1){
+    dat[i,3]<-NA
+    dat[i,4]<-NA
+    dat[i,5]<-NA
+  }
+  else{
+    sum_out<-entrez_summary(db="nuccore", id=seq_out$ids)
+    dat[i,3]<-sumout$accessionversion
+    dat[i,4]<-sumout$title
+    dat[i,5]<-sumout$slen
+    seq_1.2<-entrez_fetch(db="nuccore", id=sum_out$accessionverstion,rettype="fasta")
+    seq_1.2.dat<-sub(">([^\n]*", paste0(">", sum_out$organism, seq.dat))
+    seq_1.2dat<-gsub(" ", "_")
+    mit_sequence<-c(mit_sequence, seq_1.2.dat)
+  }
+}
+
+# 26 Sept 25
+write(mit_sequence, file = "pm_mitochondrial_out.fasta")
+
