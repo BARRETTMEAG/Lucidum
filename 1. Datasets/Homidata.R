@@ -34,7 +34,7 @@ sumsearch$slen
 sumsearch2<-entrez_summary(db="nuccore", id=twosearch$ids)
 sumsearch2$organisms
 
-testsearch<-entrez_search(db="nuccore", term="txid9604[ORGN] and MITOCHONDRION[ALL]", 
+testsearch<-entrez_search(db="nuccore", term="txid9604[ORGN] AND MITOCHONDRION[ALL]", 
                           retmax=1) #Why is it saying there are no ids for Hominidae or Hominoidea?
 sumtest<-entrez_summary(db="nuccore", id=testsearch$ids) 
 sumtest$organism
@@ -86,3 +86,4 @@ for(i in 1:length(unique(taxout$ids))){
   }
 }
 write(mitosequence, file="mitochondrial_out.fasta")
+
