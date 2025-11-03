@@ -1,0 +1,108 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=6;
+	taxlabels
+	Macaca_fascicularis
+	Macaca_mulatta
+	Macaca_munzala
+	Macaca_nemestriana
+	Papio_hamadryas
+	Pygathrix_cinerea
+;
+end;
+
+begin trees;
+	tree TREE_CCD0_mean = [&R] ((Macaca_fascicularis[&height=2.3022806702300542E-17,height_95%_HPD={0.0,0.0},height_median=0.0,height_range={0.0,8.881784197001252E-16},length=5.9456706974788744,length_95%_HPD={4.963734855738243,6.924763216371337},length_median=5.942351761929832,length_range={3.960980344507922,8.223056048138725},posterior=1.0,!rotate=true]:5.945671,Pygathrix_cinerea[&height=2.3022806702300542E-17,height_95%_HPD={0.0,0.0},height_median=0.0,height_range={0.0,8.881784197001252E-16},length=5.9456706974788744,length_95%_HPD={4.963734855738243,6.924763216371337},length_median=5.942351761929832,length_range={3.960980344507922,8.223056048138725},posterior=1.0,!rotate=true]:5.945671)[&height=5.9456706974788744,height_95%_HPD={4.963734855738243,6.924763216371337},height_median=5.942351761929832,height_range={3.9609803445079224,8.223056048138725},length=0.011156708998211569,length_95%_HPD={5.154816086871961E-6,0.03252367662645739},length_median=0.007753263034565361,length_range={5.154816086871961E-6,0.10425681564991685},posterior=1.0]:0.011157,(((Macaca_mulatta[&height=2.4223047810003414E-17,height_95%_HPD={0.0,0.0},height_median=0.0,height_range={0.0,8.881784197001252E-16},length=2.1415704194039344,length_95%_HPD={1.7741144587445863,2.5411682726359333},length_median=2.1362131429489253,length_range={1.3891311660420156,3.0928699897288254},posterior=1.0]:2.14157,Macaca_munzala[&height=2.4223047810003414E-17,height_95%_HPD={0.0,0.0},height_median=0.0,height_range={0.0,8.881784197001252E-16},length=2.1415704194039344,length_95%_HPD={1.7741144587445863,2.5411682726359333},length_median=2.1362131429489253,length_range={1.3891311660420156,3.0928699897288254},posterior=1.0]:2.14157)[&height=2.1415704194039344,height_95%_HPD={1.7741144587445863,2.5411682726359333},height_median=2.1362131429489253,height_range={1.3891311660420156,3.0928699897288254},length=0.510014221347339,length_95%_HPD={0.34647479176854024,0.6750889295791307},length_median=0.5076265459301406,length_range={0.25393933084826603,0.8622972964386948},posterior=1.0]:0.510014,Macaca_nemestriana[&height=2.324103235824652E-17,height_95%_HPD={0.0,0.0},height_median=0.0,height_range={0.0,8.881784197001252E-16},length=2.6515846407512798,length_95%_HPD={2.1817325368258143,3.116113291985905},length_median=2.6460772146145306,length_range={1.7175622268152964,3.8811372032236964},posterior=1.0]:2.651585)[&height=2.6515846407512798,height_95%_HPD={2.1817325368258143,3.116113291985905},height_median=2.6460772146145306,height_range={1.7175622268152968,3.8811372032236973},length=2.2851624494874456,length_95%_HPD={1.8390310129002638,2.7578147966922133},length_median=2.2800548966331124,length_range={1.511832309725663,3.1881359172290624},posterior=1.0]:2.285162,Papio_hamadryas[&height=2.3022806702300542E-17,height_95%_HPD={0.0,0.0},height_median=0.0,height_range={0.0,8.881784197001252E-16},length=4.93674709023872,length_95%_HPD={4.0490461465877985,5.747518380695507},length_median=4.927078843026819,length_range={3.374457251110503,6.782596451955184},posterior=1.0,!rotate=true]:4.936747)[&height=4.93674709023872,height_95%_HPD={4.0490461465877985,5.7475183806955075},height_median=4.92707884302682,height_range={3.3744572511105035,6.782596451955185},length=1.0200803162383627,length_95%_HPD={0.7170476436513109,1.3621669841555892},length_median=1.01800524669529,length_range={0.5347641489758157,1.772950582948365},posterior=1.0,!rotate=false]:1.02008)[&height=5.956827406477065,height_95%_HPD={4.979815120482107,6.9435751098097604},height_median=5.954132451199215,height_range={3.981333093113636,8.257759685341178},length=0.0,posterior=1.0];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute="height_95%_HPD";
+	set nodeBars.isShown=true;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="posterior";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=13;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=true;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=true;
+	set scaleAxis.showGrid=false;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=false;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.6;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=15;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=true;
+	set trees.transformType="cladogram";
+end;
+
