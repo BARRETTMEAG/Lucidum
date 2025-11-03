@@ -1,0 +1,23 @@
+<itsabeastystatewerein version='2.0' sample='10000000'>
+<statenode id='Tree.t:tree'>(8:6.840983284556336,(((2:1.4425928779782384,((6:0.4185924082512064,9:0.4185924082512064)13:0.39263649342585755,0:0.811228901677064)17:0.6313639763011745)16:2.6036151042642994,((5:0.2540403606118543,4:0.2540403606118543)12:0.9775754838154745,1:1.2316158444273289)15:2.8145921378152092)11:1.943365391134246,(3:5.929425455476397,7:5.929425455476397)10:0.06014791790038654)14:0.8514099111795526)18:0.0</statenode>
+<statenode id='mutationRate.s:JTT'>mutationRate.s:JTT[1 1] (0.0,Infinity): 1.0 </statenode>
+<statenode id='birthRateY.t:tree'>birthRateY.t:tree[1 1] (0.0,Infinity): 0.7712851451568072 </statenode>
+<statenode id='clockRate.c:clock'>clockRate.c:clock[1 1] (0.0,Infinity): 0.013735404984155972 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"FixMeanMutationRatesOperator","p":3271.0925502824794,"accept":242047,"reject":0,"acceptFC":241722,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"CalibratedYuleModelBICEPSEpochTop.t:tree","p":0.16964785377661926,"accept":86653,"reject":154860,"acceptFC":86487,"rejectFC":154697,"rejectIv":53662,"rejectOp":53662},
+{"id":"CalibratedYuleModelBICEPSEpochAll.t:tree","p":0.18133809625866176,"accept":80876,"reject":160318,"acceptFC":80704,"rejectFC":160157,"rejectIv":53997,"rejectOp":53997},
+{"id":"CalibratedYuleModelBICEPSTreeFlex.t:tree","p":0.1076885905778193,"accept":101176,"reject":139929,"acceptFC":100856,"rejectFC":139908,"rejectIv":0,"rejectOp":0},
+{"id":"CalibratedYuleModelTreeRootScaler.t:tree","p":0.22343531294024285,"accept":78709,"reject":282140,"acceptFC":78451,"rejectFC":281914,"rejectIv":124880,"rejectOp":124880},
+{"id":"CalibratedYuleModelUniformOperator.t:tree","p":1.893645914969724,"accept":1121383,"reject":2491301,"acceptFC":1116840,"rejectFC":2491004,"rejectIv":0,"rejectOp":0},
+{"id":"CalibratedYuleModelSubtreeSlide.t:tree","p":0.9664258891261929,"accept":322245,"reject":1485079,"acceptFC":321830,"rejectFC":1483111,"rejectIv":572737,"rejectOp":427696},
+{"id":"CalibratedYuleModelNarrow.t:tree","p":"NaN","accept":55225,"reject":1752479,"acceptFC":55115,"rejectFC":1750239,"rejectIv":287396,"rejectOp":0},
+{"id":"CalibratedYuleModelWide.t:tree","p":"NaN","accept":860,"reject":360541,"acceptFC":857,"rejectFC":360081,"rejectIv":257472,"rejectOp":191172},
+{"id":"CalibratedYuleModelWilsonBalding.t:tree","p":"NaN","accept":1362,"reject":359602,"acceptFC":1358,"rejectFC":359125,"rejectIv":193320,"rejectOp":119967},
+{"id":"CalibratedYuleBirthRateScaler.t:tree","p":0.8281313408336908,"accept":109844,"reject":251756,"acceptFC":109675,"rejectFC":251440,"rejectIv":0,"rejectOp":0},
+{"id":"StrictClockRateScaler.c:clock","p":"NaN","accept":49346,"reject":131680,"acceptFC":49334,"rejectFC":131463,"rejectIv":0,"rejectOp":0,"nProposals":181026,"param_mean_sum":"[0.012939434832153169]","param_mean_SS":"[1.7111851561555272E-4]","numAccepts":"[24742, 24604]","numProposals":"[94037, 85990]","operator_mean_runtimes":"[0.5254192392352631, 0.5155139899985683]","mean_SS":"[[6.438891592410142E-6], [5.198594017193079E-6]]","weights":"[0.5277394906773211, 0.47226050932267893]","operators":[{"id":"AVMNOperator.MC1R_protein_trimmed","p":0.6815525224315224,"means":"[-4.3586468135792416, 7.070981074800572]","covariance":"[0.021810332765694343, -0.11221906664805703, 1.138835240366774]","accept":33917,"reject":95292,"acceptFC":33909,"rejectFC":95061,"rejectIv":0,"rejectOp":0},{"id":"StrictClockRateScalerX.c:clock","p":0.2074086392970635,"accept":24604,"reject":61875,"acceptFC":24599,"rejectFC":61763,"rejectIv":0,"rejectOp":0}]},
+{"id":"strictClockUpDownOperator.c:clock","p":"NaN","accept":51234,"reject":129356,"acceptFC":51228,"rejectFC":129109,"rejectIv":0,"rejectOp":0,"nProposals":180590,"param_mean_sum":"[0.012938481496748507, 1.4552185081194784]","param_mean_SS":"[1.710659780285998E-4, 2.145545155265176]","numAccepts":"[9175, 42059]","numProposals":"[34166, 145425]","operator_mean_runtimes":"[0.5335658256747431, 0.5199295100563189]","mean_SS":"[[6.417303816125614E-6, 0.8221981531203761], [4.6787429484608394E-6, 4.015141845124452]]","weights":"[0.16287444714237445, 0.8371255528576256]","operators":[{"id":"AVMNOperator.MC1R_protein_trimmed","p":0.6815525224315224,"means":"[-4.3586468135792416, 7.070981074800572]","covariance":"[0.021810332765694343, -0.11221906664805703, 1.138835240366774]","accept":33917,"reject":95292,"acceptFC":33909,"rejectFC":95061,"rejectIv":0,"rejectOp":0},{"id":"strictClockUpDownOperatorX.c:clock","p":0.19534210979553687,"accept":42059,"reject":103869,"acceptFC":42054,"rejectFC":103748,"rejectIv":0,"rejectOp":0}]}
+]}
+-->
