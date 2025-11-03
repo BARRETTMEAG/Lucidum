@@ -1,0 +1,112 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=10;
+	taxlabels
+	Cercocebus_atys
+	Homo_sapiens
+	Macaca_fascicularis
+	Nycticebus_coucang
+	Pan_paniscus
+	Pan_troglodytes
+	Papio_anubis
+	Rhinopithecus_bieti
+	Saimiri_boliviensis
+	Theropithecus_gelada
+;
+end;
+
+begin trees;
+	tree TREE_CCD0_mean = [&R] (((((Cercocebus_atys[&height=4.794484572597068E-7,height_95%_HPD={0.0,1.0000000010279564E-6},height_median=8.881784197001252E-16,height_range={0.0,2.9999999995311555E-6},length=0.6579517229152964,length_95%_HPD={0.16871499999999973,1.2230169999999996},length_median=0.6132650000000002,length_range={0.04874500000000026,2.4767010000000003},posterior=1.0]:0.6535,(Papio_anubis[&height=4.777413003268687E-7,height_95%_HPD={0.0,1.0000000010279564E-6},height_median=8.881784197001252E-16,height_range={0.0,3.000000000419334E-6},length=0.23288123177938294,length_95%_HPD={0.005764000000000102,0.5523680000000004},length_median=0.19590900000000033,length_range={5.579999999998364E-4,1.5060949999999993},posterior=1.0]:0.229845,Theropithecus_gelada[&height=4.774786608005163E-7,height_95%_HPD={0.0,1.0000000010279564E-6},height_median=8.881784197001252E-16,height_range={0.0,3.000000000419334E-6},length=0.23234456835193718,length_95%_HPD={0.0062840000000008445,0.5515590000000001},length_median=0.1957829999999996,length_range={5.579999999998364E-4,1.1824449999999995},posterior=1.0]:0.229845)[&height=0.2298450084858133,height_95%_HPD={0.0077510000000007295,0.5433350000000017},height_median=0.1945809999999999,height_range={5.579999999998364E-4,1.1824449999999995},length=0.4299969489525321,length_95%_HPD={0.01145700000000005,0.928471},length_median=0.38287899999999997,length_range={0.0013129999999996755,2.3895429999999998},posterior=0.990413657255417]:0.423655)[&height=0.653500336741468,height_95%_HPD={0.16871599999999987,1.206544},height_median=0.6114150000000009,height_range={0.0487460000000004,2.1269020000000003},length=0.8691526226264782,length_95%_HPD={0.1016969999999997,1.7418560000000003},length_median=0.8014149999999995,length_range={6.550000000000722E-4,3.327591},posterior=0.9889691398555482]:0.866831,Macaca_fascicularis[&height=4.799737363183602E-7,height_95%_HPD={0.0,1.0000000010279564E-6},height_median=1.7763568394002505E-15,height_range={0.0,2.0000000011677344E-6},length=1.517836976231125,length_95%_HPD={0.6297369999999995,2.4953959999999995},length_median=1.4597049999999996,length_range={0.3641709999999998,4.044644},posterior=1.0]:1.52033)[&height=1.5203309063690058,height_95%_HPD={0.6382680000000001,2.5009650000000008},height_median=1.4633239999999992,height_range={0.36417199999999994,4.044644000000001},length=2.9787381380170763,length_95%_HPD={1.3811489999999997,4.674913},length_median=2.927824,length_range={0.6156580000000003,6.191865},posterior=1.0]:2.917278,(Homo_sapiens[&height=4.865397244957172E-7,height_95%_HPD={0.0,1.0000000010279564E-6},height_median=1.7763568394002505E-15,height_range={0.0,2.0000000020559128E-6},length=1.3398385100459673,length_95%_HPD={0.6087420000000003,2.117476},length_median=1.2914209999999997,length_range={0.31532499999999963,3.447984},posterior=1.0]:1.339839,(Pan_paniscus[&height=4.836506896995416E-7,height_95%_HPD={0.0,1.0000000010279564E-6},height_median=8.881784197001252E-16,height_range={0.0,2.9999999995311555E-6},length=0.395334565200263,length_95%_HPD={0.06571399999999983,0.7817379999999998},length_median=0.36442399999999964,length_range={0.023789999999999978,1.4269119999999997},posterior=1.0]:0.395335,Pan_troglodytes[&height=4.836506896995416E-7,height_95%_HPD={0.0,1.0000000010279564E-6},height_median=8.881784197001252E-16,height_range={0.0,2.9999999995311555E-6},length=0.395334565200263,length_95%_HPD={0.06571399999999983,0.7817379999999998},length_median=0.36442399999999964,length_range={0.023789999999999978,1.4269119999999997},posterior=1.0]:0.395335)[&height=0.39533504885095194,height_95%_HPD={0.06571399999999983,0.7817379999999998},height_median=0.36442399999999964,height_range={0.023789999999999978,1.4269120000000006},length=0.9445039477347331,length_95%_HPD={0.31076000000000015,1.6855659999999997},length_median=0.9025550000000004,length_range={0.11471300000000006,3.015041},posterior=1.0]:0.944504)[&height=1.339838996585684,height_95%_HPD={0.6087420000000003,2.117476},height_median=1.2914219999999998,height_range={0.3153250000000005,3.447984},length=3.1628919860801035,length_95%_HPD={1.602499,4.667679},length_median=3.1041929999999995,length_range={0.9890790000000003,7.504673},posterior=1.0]:3.09777)[&height=4.437608597980358,height_95%_HPD={2.7900580000000006,5.992913000000001},height_median=4.417043,height_range={1.9651050000000003,7.408441},length=1.5707831065775086,length_95%_HPD={0.1014090000000003,2.8764780000000005},length_median=1.55462,length_range={0.0021329999999997185,4.082331},posterior=0.9623112278397898]:1.614537,(Nycticebus_coucang[&height=4.819435327642543E-7,height_95%_HPD={0.0,1.0000000010279564E-6},height_median=8.881784197001252E-16,height_range={0.0,2.0000000020559128E-6},length=5.903141865922507,length_95%_HPD={4.92048,6.904894999999999},length_median=5.901563,length_range={3.9946340000000005,8.258148},posterior=1.0]:5.903142,Rhinopithecus_bieti[&height=4.819435327642543E-7,height_95%_HPD={0.0,1.0000000010279564E-6},height_median=8.881784197001252E-16,height_range={0.0,2.0000000020559128E-6},length=5.903141865922507,length_95%_HPD={4.92048,6.904894999999999},length_median=5.901563,length_range={3.9946340000000005,8.258148},posterior=1.0]:5.903142)[&height=5.90314234786603,height_95%_HPD={4.92048,6.904896},height_median=5.901563,height_range={3.9946349999999997,8.258148},length=0.1470547847669072,length_95%_HPD={3.0999999999892225E-5,0.4444670000000004},length_median=0.09998400000000007,length_range={3.0999999999892225E-5,1.900034999999999},posterior=1.0]:0.149003)[&height=6.052145686705346,height_95%_HPD={5.006359,7.163529},height_median=6.043781,height_range={4.009976,8.927257},length=1.1833422432899061,length_95%_HPD={0.0014130000000003307,2.7235200000000006},length_median=1.0445349999999998,length_range={0.0014130000000003307,5.79355},posterior=0.8366382140512147]:1.001898,Saimiri_boliviensis[&height=4.840446489806725E-7,height_95%_HPD={0.0,1.0000000010279564E-6},height_median=8.881784197001252E-16,height_range={0.0,2.0000000020559128E-6},length=6.9984059720288965,length_95%_HPD={4.853164,9.150366},length_median=6.892174,length_range={3.9139820000000003,12.94676},posterior=1.0]:7.054043)[&height=7.054043619566662,height_95%_HPD={5.131338,9.145364},height_median=6.913144000000001,height_range={4.5139320000000005,12.94676},length=0.0,posterior=1.0];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="height";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute="height_95%_HPD";
+	set nodeBars.isShown=true;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="posterior";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=true;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=true;
+	set scaleAxis.showGrid=false;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=false;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=1.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=15;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=true;
+	set trees.transformType="proportional";
+end;
+
