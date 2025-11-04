@@ -5,6 +5,8 @@ This deals more with the immune system.
 
 Data set is what was used to create the trees.
 
+The difference between _long and not _long is that _long has a larger ESS.
+
 Original trees are what the trees like prior to posterior probability was applied.
 
 MCC and CCD0_MAP are what it looks like after posterior probablity and 95% height is applied. 
