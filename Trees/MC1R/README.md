@@ -12,3 +12,5 @@ The original trees show what the trees look like before the posterior prababilit
 MCC and CCD0_MAP show what what happens when posterior probability and 95% Height is applied.  
 
 iqtree contains the information used, for both the data and the tree, along with a maximum likelihood tree picture. 
+
+The MC1R_MLtree shows the maximum likelihood tree created in R.
