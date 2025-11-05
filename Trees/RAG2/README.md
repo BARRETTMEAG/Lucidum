@@ -9,3 +9,5 @@ The difference between _long and not _long is that _long has a larger ESS.
 Original trees are what the trees like prior to posterior probability was applied.
 
 MCC and CCD0_MAP are what it looks like after posterior probablity and 95% height is applied. 
+
+The MC1R_MLtree shows the maximum likelihood tree created in R.
