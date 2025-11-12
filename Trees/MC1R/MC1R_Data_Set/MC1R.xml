@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood" required="BEAST.base v2.7.8" version="2.7">
+
+    <data
+id="MC1R_protein_trimmed"
+spec="Alignment"
+dataType="aminoacid"
+name="alignment">
+        <sequence id="seq_Cercocebus_atys" spec="Sequence" taxon="Cercocebus_atys" totalcount="20" value="MPVQGSQRRLLGSLNSTPTATPHLGLAANQTGARCLEVPIPGGLFLSLGLVSLVENVLVVTAIAKNRNLHSPMYCFICCLALSDLLVSGSNMLETAVTLLLEAGALAARAAVVQQLDNVIDVITCSSMLSSLCFLGAIAVDRYISIFYALRYHSIVTLPRARRAVAAIWVASVLFSTLFIAYYDHAAVLLCLVIFFLAMLVLMAVLYVHMLARACQHAQGIARLHKRQRLAHQGFGLKGAATLTILLGIFFLCWGPFFLHLTLIVLCPQHPTCSCIFKNFNLFLALIICNAIIDPLIYAFRSQELRRTLKEVLLCSW"/>
+        <sequence id="seq_Homo_sapiens" spec="Sequence" taxon="Homo_sapiens" totalcount="20" value="MAVQGSQRRLLGSLNSTPTAIPQLGLAANQTGARCLEVSISDGLFLSLGLVSLVENALVVATIAKNRNLHSPMYCFICCLALSDLLVSGSNVLETAVILLLEAGALVARAAVLQQLDNVIDVITCSSMLSSLCFLGAIAVDRYISIFYALRYHSIVTLPRARRAVAAIWVASVVFSTLFIAYYDHVAVLLCLVVFFLAMLVLMAVLYVHMLARACQHAQGIARLHKRQRPVHQGFGLKGAVTLTILLGIFFLCWGPFFLHLTLIVLCPEHPTCGCIFKNFNLFLALIICNAIIDPLIYAFHSQELRRTLKEVLTCSW"/>
+        <sequence id="seq_Macaca_fascicularis" spec="Sequence" taxon="Macaca_fascicularis" totalcount="20" value="MPVQGSQRRLLGSLNSTPTATPHLGLAANQTGARCREVSIPDGLFLSLGLVSLVENVLVVTAIAKNRNLHSPMYCFICCLALSDLLVSGSNMLETAVTLLLEAGALVARAAVVQQLDNVIDVITCSSMLSSLCFLGAIAVDRYISIFYALRYHSIVTLPRAQRAIAAIWVASVLCSTLFIAYYDHAAVLLCLVVFFLAMLVLMAVLYVHMLARACQHAQGIARLHKRQRLAHQGFGLKGAATLTILLGIFFLCWGPFFLHLTLIVLCPQHPTCSCIFKNFNLFLALIICNAIIDPLIYAFRSQELRRTLKEVLLCSW"/>
+        <sequence id="seq_Nycticebus_coucang" spec="Sequence" taxon="Nycticebus_coucang" totalcount="20" value="MPAQGSQRSLLGSLNSTLMATSSLGLAANQSGPQCLEVSVPDGLFLCLGLVSLVENMLVVAAIAKNRNLHSPMYCFICCLALSDLLVSVSNVLETAVMLLLEAGALAAQATVVQQLDNIIDVLICSSMVSSLCFLGAIAMDRYISIFYALRYHSIVTLSRAQWATAAVWAASILSSTLFIAYYDHTAVLLCLVVFFLAMLVLMAVLYAHMLTQACQHVQGITRLHKRQRLVQQGFGLKGAATLTILLGVFLLCWGPFFLHLTLIAVCPQHPTCSCVFKNFKLFLALIICNAIVDPLIYAFRSQELRKTLKEVLLFSW"/>
+        <sequence id="seq_Pan_paniscus" spec="Sequence" taxon="Pan_paniscus" totalcount="20" value="MAVQGSQRRLLGSLNSTPTAIPQLGLAANQTGAGCLEVSIPDWLFLSLGLVSLVENMLVVATIAKNRNLHSPMYCFICCLALSDLLVSGSNVLEMAVILLLEAGALVARAAVLQQVDNVIDVITCSSMLSSLCFLGAIAVDRYISIFYALRYHSIVTLPRARRAIAAIWVASVLFSTLFIAYCDHTAVLLCLVVFFLAVLVLMAVLYVHMLARACQHAQGIARLHKRQRPVHQGFGLKGAVTLTILLGIFFLCWGPFFLHLTLIVLCPEHPTCGCIFKNFNLFLALIICNAIIDPLIYAFHSQELRRTLKEVLTCSW"/>
+        <sequence id="seq_Pan_troglodytes" spec="Sequence" taxon="Pan_troglodytes" totalcount="20" value="MAVQGSQRRLLGSLNSTPTAIPQLGLAANQTGARCLEVSIPDGLFLSLGLVSLVENMLVVATIAKNRNLHSPMYCFICCLALSDLLVSGSNVLETAVILLLEAGALVARAAVLQQVDNVIDVITCSSMLSSLCFLGAIAVDRYISIFYALRYHSIVTLPRARRAIAAIWVASVLFSTLFIAYCDHTAVLLCLVVFFLAVLVLMAVLYVHMLARACQHAQGIARLHKRQRPVHQGFGLKGAVTLTILLGIFFLCWGPFFLHLTLI?LCPEHPTCGCIFKNFNLFLALIICNAIIDPLIYAFHSQELRRTLKEVLTCSW"/>
+        <sequence id="seq_Papio_anubis" spec="Sequence" taxon="Papio_anubis" totalcount="20" value="MPVQGSQRRLLGSLNSTPTATPHLGLAANQTGARCLEVSVPDGLFLSLGLVSLVENVLVVTAIAKNRNLHSPMYCFICCLALSDLLVSGSNMLETAVTLLLEAGVLAARAAVVQQLDNVIDVITCSSMLSSLCFLGAIAVDRYISIFYALRYHSIVTLPRARRAVAAIWVASVLFSTLFIAYYDHAAVLLCLVIFFLAMLVLMAVLYVHMLARACQHAQGIARLHKRQRLAHQGFGLKGAATLTILLGIFFLCWGPFFLHLTLIVLCPQHPTCSCIFKNFNLFLALIICNAIIDPLIYAFRSQELRRTLKEVLLCSW"/>
+        <sequence id="seq_Rhinopithecus_bieti" spec="Sequence" taxon="Rhinopithecus_bieti" totalcount="20" value="MPVQGSQRRLLGSLNSTP?SHPKLGLAANQTGARCLEVSIPDGLFLSLGLVSLVENVLVVAAIARNRNLHSPMYCFICCLALSDLLVSGSNMLETAVILLLEAGALAARAAVVQQLDNVIDVITCSSMLSSLCFLGAIAVDRYISIFYALRYHSIVTLPRARRVVAAIWVASVLFSTLFIAYYNHAAVLLCLVVFFLAMLVLMAVLYIHMLARACQHAQGIAQLHKRQRPAHQGVGLKGAATLTILLGIFFLCWGPFFLHLTLIVLCPQHPTCSCIFKNFNLFLALIICNAIIDPLIYAFRSQELRRTLKKVLLCSW"/>
+        <sequence id="seq_Saimiri_boliviensis" spec="Sequence" taxon="Saimiri_boliviensis" totalcount="20" value="MPIHGAPRKLLGSLNSTPTATPKLGLAANHTGAPCLEVSIPDGLFLSLGLVSLVENVLVVAAIAKNRNLHSPMYCFICCLALSDLLVSGSNMLEMAVVLLLEGGALATRASVVQQLHNTIDVLTCSSMLCSLCFLGAIAVDRHISIFYALRYHSIMTLPRAQRVIAAIWVASILSSTLFITYYDHAAVLLCLVVFFLAMLVLMAVLYVHMLARACQHAQGITRLHKRQPPAHQGFGLRGAATLTILLGIFFLCWGPFFLHLKLVVFCPQHLTCSCIFKNFKVFLTLIICNTIIDPLIYAFRSQELRRTLKEVLLCSW"/>
+        <sequence id="seq_Theropithecus_gelada" spec="Sequence" taxon="Theropithecus_gelada" totalcount="20" value="MPVQGSQRRLLGSLNSTPTATPHLGLAANQTGARCLEVSVPDGLFLSLGLVSLVENVLVVTAIAKNRNLHSPMYCFICCLALSDLLVSGSNMLETAVTLLLEAGALAARAAVVQQLDNVIDVITCSSMLSSLCFLGAIAVDRYISIFYALRYHSIVTLPRARRAVAAIWVASVLFSTLFIAYYDHAAVLLCLVIFFLAMLVLMAVLYVHMLARACQHAQGIARLHKRQRLAHQGFGLKGAATLTILLGIFFLCWGPFFLHLTLIVLCPQHPTCSCIFKNFNLFLALIICNAIIDPLIYAFRSQELRRTLKEVLLCSW"/>
+    </data>
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+
+    <run id="mcmc" spec="MCMC" chainLength="1000000">
+        <state id="state" spec="State" storeEvery="5000">
+            <tree id="Tree.t:tree" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.MC1R_protein_trimmed" spec="TaxonSet">
+                    <alignment idref="MC1R_protein_trimmed"/>
+                </taxonset>
+            </tree>
+            <parameter id="mutationRate.s:JTT" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="gammaShape.s:JTT" spec="parameter.RealParameter" lower="0.1" name="stateNode">1.0</parameter>
+            <parameter id="birthRateY.t:tree" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="clockRate.c:clock" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        </state>
+        <init id="RandomTree.t:tree" spec="RandomTree" estimate="false" initial="@Tree.t:tree" taxa="@MC1R_protein_trimmed">
+            <populationModel id="ConstantPopulation0.t:tree" spec="ConstantPopulation">
+                <parameter id="randomPopSize.t:tree" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+            </populationModel>
+        </init>
+        <distribution id="posterior" spec="CompoundDistribution">
+            <distribution id="prior" spec="CompoundDistribution">
+                <distribution id="CalibratedYuleModel.t:tree" spec="beast.base.evolution.speciation.CalibratedYuleModel" birthRate="@birthRateY.t:tree" tree="@Tree.t:tree"/>
+                <prior id="CalibratedYuleBirthRatePrior.t:tree" name="distribution" x="@birthRateY.t:tree">
+                    <Gamma id="Gamma.0" name="distr">
+                        <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="alpha">0.001</parameter>
+                        <parameter id="RealParameter.2" spec="parameter.RealParameter" estimate="false" name="beta">1000.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="ClockPrior.c:clock" name="distribution" x="@clockRate.c:clock">
+                    <Uniform id="Uniform.0" name="distr" upper="Infinity"/>
+                </prior>
+                <prior id="GammaShapePrior.s:JTT" name="distribution" x="@gammaShape.s:JTT">
+                    <Exponential id="Exponential.0" name="distr">
+                        <parameter id="RealParameter.0" spec="parameter.RealParameter" estimate="false" name="mean">1.0</parameter>
+                    </Exponential>
+                </prior>
+                <distribution id="Nyc-homo.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:tree">
+                    <taxonset id="Nyc-homo" spec="TaxonSet">
+                        <taxon id="Nycticebus_coucang" spec="Taxon"/>
+                        <taxon id="Homo_sapiens" spec="Taxon"/>
+                    </taxonset>
+                    <Normal id="Normal.0" name="distr">
+                        <parameter id="RealParameter.3" spec="parameter.RealParameter" estimate="false" name="mean">6.0</parameter>
+                        <parameter id="RealParameter.4" spec="parameter.RealParameter" estimate="false" name="sigma">0.5</parameter>
+                    </Normal>
+                </distribution>
+            </distribution>
+            <distribution id="likelihood" spec="CompoundDistribution" useThreads="true">
+                <distribution id="treeLikelihood.MC1R_protein_trimmed" spec="ThreadedTreeLikelihood" data="@MC1R_protein_trimmed" tree="@Tree.t:tree">
+                    <siteModel id="SiteModel.s:JTT" spec="SiteModel" gammaCategoryCount="4" mutationRate="@mutationRate.s:JTT" shape="@gammaShape.s:JTT">
+                        <parameter id="proportionInvariant.s:JTT" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                        <substModel id="JTT.s:JTT" spec="JTT"/>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:clock" spec="beast.base.evolution.branchratemodel.StrictClockModel" clock.rate="@clockRate.c:clock"/>
+                </distribution>
+            </distribution>
+        </distribution>
+        <operator id="FixMeanMutationRatesOperator" spec="operator.kernel.BactrianDeltaExchangeOperator" delta="0.75" weight="2.0">
+            <parameter idref="mutationRate.s:JTT"/>
+            <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">317</weightvector>
+        </operator>
+        <operator id="gammaShapeScaler.s:JTT" spec="AdaptableOperatorSampler" weight="0.05">
+            <parameter idref="gammaShape.s:JTT"/>
+            <operator id="AVMNOperator.MC1R_protein_trimmed" spec="kernel.AdaptableVarianceMultivariateNormalOperator" allowNonsense="true" beta="0.05" burnin="400" initial="800" weight="0.1">
+                <transformations id="AVMNSumTransform.MC1R_protein_trimmed" spec="operator.kernel.Transform$LogConstrainedSumTransform"/>
+                <transformations id="AVMNLogTransform.MC1R_protein_trimmed" spec="operator.kernel.Transform$LogTransform">
+                    <f idref="gammaShape.s:JTT"/>
+                    <f idref="clockRate.c:clock"/>
+                </transformations>
+                <transformations id="AVMNNoTransform.MC1R_protein_trimmed" spec="operator.kernel.Transform$NoTransform">
+                    <f idref="Tree.t:tree"/>
+                </transformations>
+            </operator>
+            <operator id="gammaShapeScalerX.s:JTT" spec="kernel.BactrianScaleOperator" parameter="@gammaShape.s:JTT" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+        </operator>
+        <operator id="CalibratedYuleModelBICEPSEpochTop.t:tree" spec="EpochFlexOperator" scaleFactor="0.1" tree="@Tree.t:tree" weight="2.0"/>
+        <operator id="CalibratedYuleModelBICEPSEpochAll.t:tree" spec="EpochFlexOperator" fromOldestTipOnly="false" scaleFactor="0.1" tree="@Tree.t:tree" weight="2.0"/>
+        <operator id="CalibratedYuleModelBICEPSTreeFlex.t:tree" spec="TreeStretchOperator" scaleFactor="0.01" tree="@Tree.t:tree" weight="2.0"/>
+        <operator id="CalibratedYuleModelTreeRootScaler.t:tree" spec="kernel.BactrianScaleOperator" rootOnly="true" scaleFactor="0.1" tree="@Tree.t:tree" upper="10.0" weight="3.0"/>
+        <operator id="CalibratedYuleModelUniformOperator.t:tree" spec="kernel.BactrianNodeOperator" tree="@Tree.t:tree" weight="30.0"/>
+        <operator id="CalibratedYuleModelSubtreeSlide.t:tree" spec="kernel.BactrianSubtreeSlide" tree="@Tree.t:tree" weight="15.0"/>
+        <operator id="CalibratedYuleModelNarrow.t:tree" spec="Exchange" tree="@Tree.t:tree" weight="15.0"/>
+        <operator id="CalibratedYuleModelWide.t:tree" spec="Exchange" isNarrow="false" tree="@Tree.t:tree" weight="3.0"/>
+        <operator id="CalibratedYuleModelWilsonBalding.t:tree" spec="WilsonBalding" tree="@Tree.t:tree" weight="3.0"/>
+        <operator id="CalibratedYuleBirthRateScaler.t:tree" spec="kernel.BactrianScaleOperator" parameter="@birthRateY.t:tree" upper="10.0" weight="3.0"/>
+        <operator id="StrictClockRateScaler.c:clock" spec="AdaptableOperatorSampler" weight="1.5">
+            <parameter idref="clockRate.c:clock"/>
+            <operator idref="AVMNOperator.MC1R_protein_trimmed"/>
+            <operator id="StrictClockRateScalerX.c:clock" spec="kernel.BactrianScaleOperator" parameter="@clockRate.c:clock" upper="10.0" weight="3.0"/>
+        </operator>
+        <operator id="strictClockUpDownOperator.c:clock" spec="AdaptableOperatorSampler" weight="1.5">
+            <parameter idref="clockRate.c:clock"/>
+            <tree idref="Tree.t:tree"/>
+            <operator idref="AVMNOperator.MC1R_protein_trimmed"/>
+            <operator id="strictClockUpDownOperatorX.c:clock" spec="operator.kernel.BactrianUpDownOperator" scaleFactor="0.75" weight="3.0">
+                <up idref="clockRate.c:clock"/>
+                <down idref="Tree.t:tree"/>
+            </operator>
+        </operator>
+        <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="200" model="@posterior" sanitiseHeaders="true" sort="smart">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+            <log idref="treeLikelihood.MC1R_protein_trimmed"/>
+            <log id="TreeHeight.t:tree" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:tree"/>
+            <log idref="mutationRate.s:JTT"/>
+            <log idref="gammaShape.s:JTT"/>
+            <log idref="CalibratedYuleModel.t:tree"/>
+            <log idref="birthRateY.t:tree"/>
+            <log idref="Nyc-homo.prior"/>
+            <log idref="clockRate.c:clock"/>
+        </logger>
+        <logger id="screenlog" spec="Logger" logEvery="1000">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+        </logger>
+        <logger id="treelog.t:tree" spec="Logger" fileName="MC1R.trees" logEvery="1000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:tree" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:tree"/>
+        </logger>
+        <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+    </run>
+
+</beast>
