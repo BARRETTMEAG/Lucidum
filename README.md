@@ -6,5 +6,10 @@ The Alignments folder alignment contains the genetics after trimming and alignin
 SuperMatrix contains the alignment of all of the taxa. 
 
 ![Lucidum1](https://github.com/user-attachments/assets/cd9d4218-2b13-4496-aec9-73c14fe4cd2b)
+https://www.nocturama.org/en/seeing-in-the-dark/
+
 ![Lucidum](https://github.com/user-attachments/assets/0a4f6c29-a496-42ac-b211-b41c4d84329f)
+https://www.nocturama.org/en/seeing-in-the-dark/
+
 ![eye](https://github.com/user-attachments/assets/7e7cfda7-e5cb-41fc-a5ef-e275bffe61e4)
+https://www.imaios.com/en/vet-anatomy/anatomical-structures/tapetum-lucidum-11107444092#
