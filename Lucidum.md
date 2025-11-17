@@ -18,13 +18,11 @@ Vee, Samantha et al. “The glow of the night: The tapetum lucidum as a co-adapt
 
 
 ![Lucidum1](https://github.com/user-attachments/assets/cd9d4218-2b13-4496-aec9-73c14fe4cd2b)
-https://www.nocturama.org/en/seeing-in-the-dark/
-Copyright © 2025 Little Fireface Project
+Littlefireface. (2025). Loris fact 1: Seeing in the dark!. Little Fireface Project. https://www.nocturama.org/en/seeing-in-the-dark/ 
 
 
 ![Lucidum](https://github.com/user-attachments/assets/0a4f6c29-a496-42ac-b211-b41c4d84329f)
-https://www.nocturama.org/en/seeing-in-the-dark/
-Copyright © 2025 Little Fireface Project
+Littlefireface. (2025). Loris fact 1: Seeing in the dark!. Little Fireface Project. https://www.nocturama.org/en/seeing-in-the-dark/ 
 
 
 ![eye](https://github.com/user-attachments/assets/7e7cfda7-e5cb-41fc-a5ef-e275bffe61e4)
