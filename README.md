@@ -5,4 +5,4 @@ The folder Datasets contains: raw data for different species that our group has 
 The Alignments folder alignment contains the genetics after trimming and aligning in R. 
 SuperMatrix contains the alignment of all of the taxa. 
 
-
+Draft trees shows trees pertaining to different genes, including the supermatrix. 
