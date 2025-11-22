@@ -1,1 +1,1 @@
-These trees NGPhylogeny and figtree, they show the 50 taxa. SM.svg, shows the tree as it is "suppose to be". Figtree was helpful in creating the newick tree. 
+These trees NGPhylogeny and figtree, they show the 50 taxa. SM.svg, shows the tree as it is "suppose to be". Figtree was helpful in creating the newick tree. When comparing these trees with the contree and treefile, they are almost identical. 
