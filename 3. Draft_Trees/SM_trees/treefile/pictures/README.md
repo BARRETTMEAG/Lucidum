@@ -1,7 +1,7 @@
-These pictures show the supermatrice's 50 taxa. 
+These pictures show the supermatrice's 50 taxa. The original treefile shows what the phylogeny is "suppose" to look it. 
 
-To show all of the taxa name and their specific maximum-likelihood values, look at picture 1, picture 0 shows the data in a spiral form. 
+Picture 1 shows all the taxa name and their specific maximum-likelihood values.
+Picture 0 shows the data in a spiral form with their values. 
 
-To view the phylogeny and how it is "suppose" to look look at the orginal SM trees. 
 
 
