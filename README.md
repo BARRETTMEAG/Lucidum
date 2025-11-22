@@ -6,3 +6,5 @@ The Alignments folder alignment contains the genetics after trimming and alignin
 SuperMatrix contains the alignment of all of the taxa. 
 
 Draft trees shows trees pertaining to different genes, including the supermatrix. 
+
+To create the supermatrix, this website and program was super helpful: https://github.com/andrewbudge/Liger. Thank you, Andrew!
