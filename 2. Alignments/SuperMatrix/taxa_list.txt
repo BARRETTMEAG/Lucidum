@@ -173,7 +173,7 @@ Colobus_angolensis
 Colobus_angolensis_palliatus
 Colobus_guereza
 Colobus_polykomos
-Cynocephalus volans
+Cynocephalus_volans
 Daubentonia_madagascariensis
 Erythrocebus_patas
 Eulemur rufifrons
