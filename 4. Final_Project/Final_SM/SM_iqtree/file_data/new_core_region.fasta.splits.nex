@@ -1,0 +1,192 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=51;
+TAXLABELS
+[1] 'Alouatta_caraya'
+[2] 'Aotus_nancymaae'
+[3] 'Avahi_laniger'
+[4] 'Brachyteles_arachnoides'
+[5] 'Callithrix_geoffroyi'
+[6] 'Cebus_imitator'
+[7] 'Cercocebus_atys_atys'
+[8] 'Cheirogaleus_sibreei'
+[9] 'Cheracebus_lucifer'
+[10] 'Cheracebus_lugens'
+[11] 'Chiropotes_sagulatus'
+[12] 'Cynocephalus_volans'
+[13] 'Eulemur_macaco_macaco'
+[14] 'Eulemur_rufus'
+[15] 'Galagoides_thomasi'
+[16] 'Gorilla_gorilla_gorilla'
+[17] 'Hapalemur_griseus_griseus'
+[18] 'Homo_heidelbergensis'
+[19] 'Homo_sapiens'
+[20] 'Hylobates_pileatus'
+[21] 'Lemur_catta'
+[22] 'Leontopithecus_rosalia'
+[23] 'Lepilemur_aeeclis'
+[24] 'Lophocebus_aterrimus'
+[25] 'Loris_lydekkerianus_lydekkerianus'
+[26] 'Macaca_tonkeana'
+[27] 'Megaladapis_edwardsi'
+[28] 'Mico_argentatus'
+[29] 'Miopithecus_talapoin'
+[30] 'Nasalis_larvatus'
+[31] 'Nomascus_leucogenys'
+[32] 'Pachylemur_jullyi'
+[33] 'Palaeopropithecus_ingens'
+[34] 'Pan_troglodytes_ellioti'
+[35] 'Papio_papio'
+[36] 'Papio_ursinus'
+[37] 'Perodicticus_potto_edwarsi'
+[38] 'Phaner_electromontis'
+[39] 'Piliocolobus_badius'
+[40] 'Pithecia_vanzolinii'
+[41] 'Plecturocebus_bernhardi'
+[42] 'Pongo_pygmaeus'
+[43] 'Prolemur_simus'
+[44] 'Rhinopithecus_bieti'
+[45] 'Saguinus_oedipus'
+[46] 'Sapajus_xanthosternos'
+[47] 'Semnopithecus_entellus'
+[48] 'Simias_concolor'
+[49] 'Tarsius_wallacei'
+[50] 'Xanthonycticebus_pygmaeus'
+[51] 'Xenothrix_mcgregori'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=51 nsplits=126;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 6,
+	100	 46,
+	100	 6 46,
+	66	 2 6 46,
+	100	 5,
+	100	 28,
+	100	 5 28,
+	100	 22,
+	100	 45,
+	77	 22 45,
+	100	 5 22 28 45,
+	99	 2 5 6 22 28 45 46,
+	100	 3,
+	100	 33,
+	100	 3 33,
+	100	 13,
+	100	 14,
+	100	 13 14,
+	100	 17,
+	100	 43,
+	99	 17 43,
+	100	 21,
+	100	 17 21 43,
+	100	 13 14 17 21 43,
+	100	 32,
+	100	 13 14 17 21 32 43,
+	100	 27,
+	100	 13 14 17 21 27 32 43,
+	9	 3 13 14 17 21 27 32 33 43,
+	100	 8,
+	100	 23,
+	100	 38,
+	38	 23 38,
+	100	 8 23 38,
+	100	 3 8 13 14 17 21 23 27 32 33 38 43,
+	100	 15,
+	100	 37,
+	22	 15 37,
+	100	 25,
+	100	 50,
+	34	 25 50,
+	91	 15 25 37 50,
+	92	 3 8 13 14 15 17 21 23 25 27 32 33 37 38 43 50,
+	100	 12,
+	100	 49,
+	7	 12 49,
+	100	 3 8 12 13 14 15 17 21 23 25 27 32 33 37 38 43 49 50,
+	100	 7,
+	100	 26,
+	100	 7 26,
+	100	 24,
+	100	 35,
+	100	 36,
+	100	 35 36,
+	100	 24 35 36,
+	100	 7 24 26 35 36,
+	100	 29,
+	100	 7 24 26 29 35 36,
+	100	 30,
+	100	 48,
+	100	 30 48,
+	100	 44,
+	100	 30 44 48,
+	100	 47,
+	100	 30 44 47 48,
+	100	 39,
+	100	 30 39 44 47 48,
+	100	 7 24 26 29 30 35 36 39 44 47 48,
+	100	 16,
+	100	 18,
+	100	 19,
+	77	 18 19,
+	100	 34,
+	100	 18 19 34,
+	100	 16 18 19 34,
+	100	 42,
+	100	 16 18 19 34 42,
+	100	 20,
+	100	 31,
+	100	 20 31,
+	100	 16 18 19 20 31 34 42,
+	100	 7 16 18 19 20 24 26 29 30 31 34 35 36 39 42 44 47 48,
+	100	 1 2 4 5 6 9 10 11 22 28 40 41 45 46 51,
+	100	 9,
+	100	 10,
+	100	 51,
+	100	 10 51,
+	100	 9 10 51,
+	100	 41,
+	100	 9 10 41 51,
+	100	 11,
+	100	 40,
+	100	 11 40,
+	100	 9 10 11 40 41 51,
+	96	 1 2 4 5 6 22 28 45 46,
+	100	 1 4,
+	100	 4,
+	100	 1,
+	31	 2 5 22 28 45,
+	88	 3 8 23 33 38,
+	67	 15 25,
+	67	 15 25 50,
+	40	 3 8 12 13 14 15 17 21 23 25 27 32 33 37 38 43 50,
+	62	 8 38,
+	10	 25 37 50,
+	9	 3 8 13 14 17 21 23 25 27 32 33 37 38 43 50,
+	7	 15 49,
+	50	 3 8 13 14 15 17 21 23 25 27 32 33 37 38 43 49 50,
+	3	 5 6 22 28 45 46,
+	17	 5 28 45,
+	3	 8 13 14 17 21 23 27 32 38 43,
+	23	 19 34,
+	1	 12 15,
+	6	 5 22 28,
+	3	 3 8 12 13 14 17 21 23 25 27 32 33 37 38 43 50,
+	0	 24 26 35 36,
+	3	 2 5 6 9 10 11 22 28 40 41 45 46 51,
+	1	 21 43,
+	0	 3 8 13 14 17 21 23 25 27 32 33 37 38 43 49 50,
+	1	 1 2 4 6 9 10 11 40 41 46 51,
+	1	 1 4 9 10 11 40 41 51,
+	0	 18 34,
+	0	 3 8 13 14 17 21 23 32 33 38 43,
+	0	 1 4 6 9 10 11 40 41 46 51,
+	0	 3 8 12 13 14 17 21 23 25 27 32 33 37 38 43 49 50,
+;
+END; [Splits]
+
