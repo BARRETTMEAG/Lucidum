@@ -2,4 +2,4 @@ Beauti-Beast trees were created using the Beauti and Beast programs. It shows th
 
 NGPhylogeny trees was created through NGPhylogeny (https://ngphylogeny.fr/)
 
-Iqtree  contains trees created through the use of iqtree3. 
+Iqtree  contains trees and data created through the use of iqtree3.
