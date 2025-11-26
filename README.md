@@ -11,7 +11,7 @@ SuperMatrix contains the alignment of all of the taxa.
 
 3. Draft trees shows trees pertaining to different genes, including the supermatrix (SM). 
 
-To create the supermatrix, this website and program was super helpful: https://github.com/andrewbudge/Liger. Thank you, Andrew!
+   To create the supermatrix, this website and program was super helpful: https://github.com/andrewbudge/Liger. Thank you, Andrew!
 
 4. Final Project contains the final trees found in Final SM and tree data containing the fasta file and taxa list.
    
