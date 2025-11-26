@@ -4,4 +4,4 @@ Almost all of the trees show the maximum likelihood and Baysian, with the except
 NGPhy_tree was created by NGPhylogeny, where contree and treefile were created by iqtree.  
 These trees are draft trees for the supermatrix. 
 
-The iqtree (contree and treefile) files are also included. 
+The iqtree (contree, treefile, iqtree) files are also included. 
