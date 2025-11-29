@@ -1,3 +1,5 @@
-MCC_tree contains the file created by plugging tree into the TreeAnnotator at Mean Height. 
+Overview: 
 
-The pictures generated are also shown. 
+- MCC_tree contains the file created by plugging tree into the TreeAnnotator's Node Heights: Mean Height. 
+
+- The pictures generated are also shown. 
