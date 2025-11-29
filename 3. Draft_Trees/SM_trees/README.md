@@ -5,3 +5,5 @@ NGPhy_tree was created by NGPhylogeny, where contree and treefile were created b
 These trees are draft trees for the supermatrix. 
 
 The iqtree (contree, treefile, iqtree) files are also included. 
+
+Beauti-Beast show the trees created in Beauti and Beast, files and pictures are included. 
