@@ -1,8 +1,8 @@
 SM CCDO Picture Overview:
 
-- Posterior.pdf is rooted, has posterior values without equal branching. This phylogenic tree shows how tree branches vary.
+- Posterior is rooted, has posterior values without equal branching. This phylogenic tree shows how tree branches vary.
 
-- Tree without the posterior values without equal branching. 
+- Tree is shown without the posterior values without equal branching. 
 
 - Tree_node_bar is rooted, has posterior values without equal branching. This phylogenic tree shows how tree branches vary. This also has a bar node. 
 
