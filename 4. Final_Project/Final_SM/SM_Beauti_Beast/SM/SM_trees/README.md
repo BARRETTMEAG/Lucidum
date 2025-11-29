@@ -1,6 +1,6 @@
 SM Trees Overview:
 
-- Contains CCDO tree data and pictures.
+- Contains CCD0 tree data and pictures.
 
 - Contains MCC tree data and pictures.
 
