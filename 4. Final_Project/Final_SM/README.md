@@ -1,7 +1,9 @@
-Beauti-Beast trees were created using the Beauti and Beast programs. It shows the data created from the supermatrix (SM) fasta file and the pictures of the trees. 
+Final SM Overview: 
 
-NGPhylogeny trees was created through NGPhylogeny (https://ngphylogeny.fr/)
+- Beauti-Beast trees were created using the Beauti and Beast programs. It shows the data created from the supermatrix (SM) fasta file and the pictures of the trees. 
 
-Iqtree  contains trees and data created through the use of iqtree3.
+- NGPhylogeny trees was created through NGPhylogeny (https://ngphylogeny.fr/)
 
-SM R code contains: the data set (fasta file used), the R code used, and the tree pictures.
+- Iqtree  contains trees and data created through the use of iqtree3.
+
+- SM R code contains: the data set (fasta file used), the R code used, and the tree pictures.
