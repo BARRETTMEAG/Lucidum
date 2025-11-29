@@ -4,5 +4,5 @@ Tree1 has the posterior values that were missing from Tree. The values that are 
 
 Tree2 shows the branches being at equal length and the names are aligned. The posterior numbers are easier to read. This tree is rooted. 
 
-Tree3 shows a colored version of Tree1. This tree shows the branches being colored according to posterior values, when the branches that are red and black indicates 1, where brown indicates that it is not very accurate. 
+Tree3 shows a colored version of Tree2. This tree shows the branches being colored according to posterior values, when the branches that are red and black indicates 1, where brown indicates that it is not very accurate. 
 
