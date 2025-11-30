@@ -8,4 +8,4 @@ Contree Overview:
 
 - Cladogram_branch_posterior tree uses cladogram to make the branches equal, dispite not truely being "equal". The rule of thumb is that the longer the branch value is the more evolutionary changes.
 
-Non_cladogram_branch tree shows the opposit of Cladogram_branch_posterior, it shows that Homo_sapiens is the branch with the most evolutionary changes. This data needs to be double checked, since there is potential for errors human, computing, or even genetic. 
+- Non_cladogram_branch tree shows the opposit of Cladogram_branch_posterior, it shows that Homo_sapiens is the branch with the most evolutionary changes. This data needs to be double checked, since there is potential for errors human, computing, or even genetic. 
