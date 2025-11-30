@@ -1,6 +1,6 @@
 Best Tree Overview:
 
-- Best_tree shows the treefile that was created in iqtree after several attempts. 
+- Best_tree shows the treefile that was created in iqtree after several attempts, this data is found under Final_SM/SM_iqtree/file_data (this shows the files created by iqtree), SM_iqtree/trees (shows contree and treefile created by iqtree), and the trees/treefile has the treefile that was used to create the tree pictures. 
 
 - ML_not_ is rooted, has posterior values with equal branching. This phylogenic tree shows how tree branches vary value wise. SH-aLRT support (%) / aBayes support / ultrafast bootstrap support (%) are shown.
 
