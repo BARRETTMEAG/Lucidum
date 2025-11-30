@@ -1,5 +1,7 @@
 Best Tree Overview:
 
+- Best_tree shows the treefile that was created in iqtree after several attempts. 
+
 - ML_not_ is rooted, has posterior values with equal branching. This phylogenic tree shows how tree branches vary value wise. SH-aLRT support (%) / aBayes support / ultrafast bootstrap support (%) are shown.
 
 
