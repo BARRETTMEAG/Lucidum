@@ -11,3 +11,6 @@ Best Tree Overview:
 - Treefile is to showing what the tree looks like before the values and cladogram are used. 
 
 - Colored.treefile shows that this tree would look like if you colored it according to the posterior values. 
+
+
+- When comparing Treefile vs. Contree, there are many similaries. 
