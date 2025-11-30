@@ -13,5 +13,5 @@ In Pictures:
 - Contree/Colored_cladogram is also rooted with only one set of bootstrap values and uses cladogram to make the branches equal. This tree is very similar to ML_not_. 
 
 
-
+- The difference is shown when looking at the branches length, the Treefile branches show 10.8 on the branch for Homo Sapiens, where the Contree branches a solid 10. Regardless of which tree, this number is large and  indicates multiple evoluationary changes. 
 
