@@ -1,6 +1,6 @@
-Tree Overview:
+Treefile Picture Overview:
 
-- Treefile1 is rooted, has posterior values without equal branching. This phylogenic tree shows how tree branches can vary.
+- MC1R_trimmed.fasta.treefile1.pdf (Treefile1) is rooted, has posterior values without equal branching. This phylogenic tree shows how tree branches can vary.
 
 - Treefile2 has the posterior values with equal branching. 
 
