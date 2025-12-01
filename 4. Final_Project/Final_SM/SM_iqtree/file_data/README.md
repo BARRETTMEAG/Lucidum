@@ -1,1 +1,3 @@
-File data has: fasta&nwk files contain the fasta file used and other documents created by iqtree. 
+File data Overview: 
+
+- Contains Fasta&nwk files and other documents created by iqtree. 
