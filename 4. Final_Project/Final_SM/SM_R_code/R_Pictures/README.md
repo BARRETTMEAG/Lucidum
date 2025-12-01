@@ -1,5 +1,5 @@
 R Pictures Overview:
 
-- BayesianBootstrap is rooted, has no posterior values with equal branching. 
+- BayesianBootstrap is rooted, without posterior values with cladogram branching. 
 
-- ML_tree is rooted and no posterior values without equal branching. 
+- ML_tree is rooted, without both posterior values and cladogram branching. 
