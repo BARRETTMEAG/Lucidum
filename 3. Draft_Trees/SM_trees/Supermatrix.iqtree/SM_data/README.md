@@ -1,1 +1,3 @@
-SM_data contains the fasta file that was plugged into iqtree to create the other files. 
+SM Data Overview:
+
+- Contains the files created by iqtree by plugging in the fasta file.
