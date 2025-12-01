@@ -1,3 +1,3 @@
-Tree Overview: 
+Super Picture Overview: 
 
-Supermax.trees.pdf shows the tree after it has been rooted. This pictures shows the different branch lengths, it does not have the posterior probability values. 
+Supermax.trees.pdf shows the rooted tree. This picture shows the different branch lengths without posterior probability values. 
