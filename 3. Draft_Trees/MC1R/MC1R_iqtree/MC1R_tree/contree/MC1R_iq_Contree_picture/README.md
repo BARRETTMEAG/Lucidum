@@ -1,4 +1,4 @@
-Tree Overview:
+MC1R iq Contree Picture Overview:
 
 - MC1R_trimmed.fasta.contree.pdf (Contree) shows a tree that has been rooted and the posterior values associated. This phylogenic tree shows how tree branches can vary. 
 
