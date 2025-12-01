@@ -1,7 +1,9 @@
-Beauti-Beast contain two folders one supermax had a chain length of one million, where supermax_long had a chain length of ten million.
+Beauti-Beast Overview:
 
-Supermax contains the iqtree file data and the trees (tree, MCC, and CCD0).
+- Contain two folders: supermax has a chain length of one million and supermax_long has a chain length of ten million.
 
-Supermax_long contains the iqtee file data and the long trees (tree, MCC, and CCD0).
+- Supermax contains the iqtree file data and the trees (tree, MCC, and CCD0).
 
-These files and trees were created with the assistance of Taming of the Beast (https://taming-the-beast.org/tutorials/Introduction-to-BEAST2/).
+- Supermax_long contains the iqtee file data and the long trees (tree, MCC, and CCD0).
+
+- These files and trees were created with the assistance of Taming of the Beast (https://taming-the-beast.org/tutorials/Introduction-to-BEAST2/).
