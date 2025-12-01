@@ -1,1 +1,3 @@
-Treefile contains the treefile created in iqtree, along with the pictures of the trees generated. 
+RAG2 Treefile Overview: 
+
+- Contains the treefile created in iqtree, along with pictures of the trees generated. 
