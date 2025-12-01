@@ -1,4 +1,4 @@
-Super CCD0 Picture:
+Super CCD0 Picture Overview:
 
 - Supermax_CCD0_MAP.tree.pdf (Tree) shows a rooted tree and does not have posterior values associated.
 
