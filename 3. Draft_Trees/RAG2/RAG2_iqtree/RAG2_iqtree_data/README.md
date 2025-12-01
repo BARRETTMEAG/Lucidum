@@ -1,3 +1,3 @@
-Folder Overview: 
+RAG2 Iqtree Data Overview: 
 
-- This contains the fasta file plugged into iqtree and the items that were created by iqtree. 
+- Contains the fasta file plugged into iqtree and documents created by iqtree. 
