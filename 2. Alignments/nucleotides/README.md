@@ -1,1 +1,3 @@
-These are the trimmed nucleotides that were used. 
+Alignments Overview: 
+
+- Contains the trimmed nucleotides fasta files. 
