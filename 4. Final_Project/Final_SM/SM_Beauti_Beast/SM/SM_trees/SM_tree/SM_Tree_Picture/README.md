@@ -1,3 +1,3 @@
 SM Tree Picture Overview:
 
-- This shows the rooted tree and without posterior value.
+- This shows a rooted tree, without posterior value.
