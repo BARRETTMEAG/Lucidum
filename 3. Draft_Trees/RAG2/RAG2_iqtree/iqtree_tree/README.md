@@ -1,1 +1,3 @@
-This folder contains contree and treefile, these have data and pictures that were created in iqtree.
+Iqtree tree Overview: 
+
+- Contains contree and treefile, along with data and pictures created in iqtree.
