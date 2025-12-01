@@ -6,7 +6,7 @@ Contree Pictures Overview:
 
 - There is no Contree 2, so do not worry, you did not miss it. 
 
-- Contree3 shows the posterior values using cladogram, making it easier to read. This is not how they originally look, but this is for being able to read the values more clearly. 
+- Contree3 shows the posterior values using cladogram, making it easier to read. This is not how they originally look, but this is for being able to read values more clearly. 
 
 
-- Contree4 shows a circular chart with the posterior values and all the branches are shown through cladogram. This is not how they originally look, but this is for being able to read the values more clearly. 
+- Contree4 shows a circular chart with the posterior values and all the branches are shown through cladogram. This is not how they originally look, but this is for being able to read values more clearly. 
