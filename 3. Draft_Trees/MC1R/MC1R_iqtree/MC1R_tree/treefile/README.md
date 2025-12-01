@@ -1,1 +1,3 @@
-This treefile contains the treefile along with the tree pictures. 
+Treefile Overview:
+
+- Contains the treefile along with tree pictures. 
