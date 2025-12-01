@@ -1,3 +1,3 @@
 R Code Overview:
 
-- This contains the R code that was used when combined with the data set (fasta file).
+- Contains the R code used to combine the data set (fasta file).
