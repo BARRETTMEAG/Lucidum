@@ -1,3 +1,3 @@
 Long MCC Overview:
 
-- This contains the tree file and the tree picture. 
+- This contains both tree file and tree picture. 
