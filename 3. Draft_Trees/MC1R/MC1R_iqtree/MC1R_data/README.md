@@ -1,1 +1,3 @@
-This file contains the fasta file used and the data created from iqtree. 
+MC1R Data Overview: 
+
+- Contains the fasta file used and data created from iqtree. 
