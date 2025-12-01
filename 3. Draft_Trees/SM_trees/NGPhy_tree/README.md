@@ -1,1 +1,7 @@
-These trees NGPhylogeny and figtree, they show the 50 taxa. SM.svg, shows the tree as it is "suppose to be". Figtree was helpful in creating the newick tree. When comparing these trees with the contree and treefile, they are almost identical. 
+NGPhy Tree Overview:
+
+- These trees were created in NGPhylogeny.
+
+- SM.svg, shows the tree as it is "supposed to be". This is not rooted and without posterior values. 
+
+- SM_PhyML_Newick... was also created in NGPhylogeny, not rooted and without posterior values. 
