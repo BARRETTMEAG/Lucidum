@@ -4,6 +4,8 @@ Contree Pictures Overview:
 
 - Contree1 shows these posterior values. Showing the probability of these nodes. 
 
+- There is no Contree 2, so do not worry, you did not miss it. 
+
 - Contree3 shows the posterior values using cladogram, making it easier to read. This is not how they originally look, but this is for being able to read the values more clearly. 
 
 
