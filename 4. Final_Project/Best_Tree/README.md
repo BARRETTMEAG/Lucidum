@@ -5,9 +5,9 @@ Best Tree Overview:
 
 In Pictures: 
 
-- Both Contree and Treefile have better and are more accurate trees compared to trees from R, Beauti-Beast, and NGPhylogeny. When comparing Treefile vs. Contree, there are many similaries. The values are similar, along with the structures. The values may have changed due to errors whether it be human, computer, or genetics. 
+- Both Contree and Treefile have better and are more accurate trees compared to trees from R, Beauti-Beast, and NGPhylogeny. When comparing Treefile vs. Contree, there are many similarities. The values are similar, along with the structures. The values may have changed due to errors whether it be human, computer, or genetics. 
 
-- Treefile/ML_not_... is rooted, has posterior values with equal branching. This phylogenic tree shows how tree branches vary value wise. SH-aLRT support (%) / aBayes support / ultrafast bootstrap support (%) are shown. This can be considered on of the best trees partially due to it having three support values that varify the validity of the branches. This tree is one of the best, when compared to the trees from R, Beauti-Beast, and NGPhylogeny. 
+- Treefile/ML_not_... is rooted, has posterior values with equal branching (using cladogram). This phylogenic tree shows how tree branches vary value wise. SH-aLRT support (%) / aBayes support / ultrafast bootstrap support (%) are shown. This can be considered one of the best trees partially due to it having three support values that varify the validity of the branches. This tree is one of the best, when compared to the trees from R, Beauti-Beast, and NGPhylogeny. 
 
 
 - Contree/Colored_cladogram is also rooted with only one set of bootstrap values and uses cladogram to make the branches equal. This tree is very similar to ML_not_. 
