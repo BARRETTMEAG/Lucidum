@@ -1,8 +1,8 @@
-Tree Overview: 
-- This folder contains both contree and treefile that were created by iqtree.
+MC1R Tree Overview: 
+- Contains both contree and treefile created by iqtree.
 
- - The trees show the values of maximum-likelihood on the contree and treefile.
- - The branches show different lengths.
- - One of the pictures shows the same lengths to be able to see the values more clearly.
+ - The trees show values of maximum-likelihood on the contree and treefile.
+   
+ - Branches have different lengths.
 
-
+- Cladogram was used to make the node values more visiable. 
