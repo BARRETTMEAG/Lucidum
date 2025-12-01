@@ -1,1 +1,3 @@
-This contains the contree file created in iqtree, along with 4 pictures that were created (showing the different type of trees that are generated). 
+RAG2 Contree Overview:
+
+- Contains the contree file created in iqtree and 4 pictures created, showing the different generated tree types. 
