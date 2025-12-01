@@ -1,1 +1,3 @@
-Supermatrix.iqtree contains the data created from plugging the fasta file into iqtree along with the tree files. 
+Supermatrix.iqtree Overview:
+
+- Contains the iqtree files and pictures generated from plugging in the fasta file.
