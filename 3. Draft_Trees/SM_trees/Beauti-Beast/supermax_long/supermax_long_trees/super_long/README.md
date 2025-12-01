@@ -1,3 +1,5 @@
-Supermax_tree is the orginal file that was plugged into TreeAnnotator to create MCC and CCD0.
+Supermax Tree Overview:
 
-This foler contains the tree file and the pictures generated.
+- Contains the orginal file that was plugged into TreeAnnotator to create MCC and CCD0.
+
+- Contains the tree file and generated pictures.
