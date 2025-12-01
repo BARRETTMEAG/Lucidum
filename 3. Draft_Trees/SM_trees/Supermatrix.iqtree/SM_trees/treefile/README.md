@@ -1,1 +1,3 @@
-Treefile contains the treefile and the pictures generated. 
+Treefile Overview:
+
+- Contains the treefile and generated pictures. 
