@@ -1,5 +1,7 @@
-Iqtree has the data and tree files. 
-  
-  - Data contains the fasta and files created by iqtree. 
+MC1R iqtree Overview:
 
-  - Tree contains the contree and treefile files, along with tree pictures.
+- Iqtree contains data and tree files. 
+  
+  - Data contains fasta and iqtree files. 
+
+  - Tree contains contree and treefile files, along with tree pictures.
