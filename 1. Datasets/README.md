@@ -1,3 +1,3 @@
 1. Datasets Overview: 
 
-- Datasets contains the R scripts and 5 nucleotides that were used for this project. 
+- Datasets contain the R scripts and 5 nucleotides used for this project. 
