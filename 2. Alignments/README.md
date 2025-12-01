@@ -1,3 +1,3 @@
-Alignments Overview: 
+2. Alignments Overview: 
 - Alignments contains the trimmed versions of the SuperMatrix and the nucleotides.
 
