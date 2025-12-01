@@ -1,3 +1,3 @@
-Folder Overview:
+RAG2 iqtree Overview:
 
-- RAG2_iqtree_data contains the data used to create the pictures in iqtree_tree.
+- Contains data used to create pictures in iqtree.
