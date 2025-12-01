@@ -1,1 +1,3 @@
-This folder contains the log, xml, and xml.state iqtree data, along with the trees that were generated. 
+Supermax Overview: 
+
+- Contains the log, xml, and xml.state iqtree data, along with generated trees. 
