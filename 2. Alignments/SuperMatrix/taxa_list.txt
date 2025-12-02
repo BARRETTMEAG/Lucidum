@@ -42,7 +42,6 @@ Callithrix_aurita
 Callithrix_geoffroyi
 Callithrix_kuhlii
 Callithrix_penicillata
-Callithrix_sp._BJT022
 Carlito_syrichta
 Cebuella_niveiventris
 Cebuella_pygmaea
@@ -127,7 +126,6 @@ Eulemur_fulvus_mayottensis
 Eulemur_macaco_macaco
 Eulemur_mongoz
 Eulemur_rubriventer
-Eulemur_rufifrons
 Eulemur_rufus
 Galago_moholi
 Galago_senegalensis
@@ -217,7 +215,6 @@ Megaladapis_edwardsi
 Mico_argentatus
 Mico_humeralifer
 Mico_humilis
-Mico_sp._n._MJ-2022
 Microcebus_arnholdi
 Microcebus_berthae
 Microcebus_bongolavensis
@@ -270,7 +267,6 @@ Pithecia_chrysocephala
 Pithecia_hirsuta
 Pithecia_mittermeieri
 Pithecia_pissinatti
-Pithecia_sp._MJ-2022
 Pithecia_vanzolinii
 Plecturocebus_bernhardi
 Plecturocebus_brunneus
@@ -290,7 +286,6 @@ Presbytis_femoralis_femoralis
 Presbytis_femoralis_percura
 Presbytis_melalophos
 Presbytis_melalophos_mitrata
-Presbytis_sp._Pres2
 Procolobus_verus
 Prolemur_simus
 Propithecus_candidus
@@ -316,7 +311,6 @@ Saguinus_labiatus_rufiventer
 Saguinus_midas
 Saguinus_mystax
 Saguinus_oedipus
-Saguinus_sp._MJ-2022
 Saimiri_boliviensis
 Saimiri_boliviensis_boliviensis
 Saimiri_boliviensis_peruviensis
@@ -368,4 +362,5 @@ Varecia_rubra
 Varecia_variegata
 Varecia_variegata_variegata
 Xanthonycticebus_pygmaeus
+
 Xenothrix_mcgregori
