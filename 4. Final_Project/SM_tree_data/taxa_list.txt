@@ -12,7 +12,6 @@ Chiropotes_sagulatus
 Cynocephalus_volans
 Eulemur_macaco_macaco
 Eulemur_rufus
-Galagoides_thomasi
 Gorilla_gorilla_gorilla
 Hapalemur_griseus_griseus
 Homo_heidelbergensis
@@ -49,4 +48,3 @@ Simias_concolor
 Tarsius_wallacei
 Xanthonycticebus_pygmaeus
 Xenothrix_mcgregori
-
