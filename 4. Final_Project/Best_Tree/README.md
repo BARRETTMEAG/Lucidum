@@ -7,7 +7,7 @@ In Pictures:
 
 - Both Contree and Treefile have better and are more accurate trees compared to trees from R, Beauti-Beast, and NGPhylogeny. When comparing Treefile vs. Contree, there are many similarities. The values are similar, along with the structures. The values may have changed due to errors whether it be human, computer, or genetics.
 
-- Treefile's Color_posterior_branch is a rooted colored tree that has the branch length values and is colored according to posterior values, this tree does not use cladogram.
+- The absolute best tree is Treefile's Color_posterior_branch is a rooted colored tree that has the branch length values and is colored according to posterior values, this tree does not use cladogram.
 
 - There is a picture that combined both iqtree's treefile and R, although it does not have the posterior values, but shows the data we wanted for which species have lucidum and which do not (Lucidum.pdf).
 
