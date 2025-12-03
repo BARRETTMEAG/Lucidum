@@ -6,4 +6,4 @@ Treefile Pictures Overview:
 
 - SM_branch_length is a rooted tree that shows the branch length.
 
-- Cladogram_node_colored is a rooted colored tree that has posterior values and is using cladogram. 
+- Cladogram_node_colored is a rooted colored tree with posterior values and uses cladogram. 
