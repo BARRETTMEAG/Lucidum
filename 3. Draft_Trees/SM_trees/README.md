@@ -10,3 +10,5 @@ These trees are draft trees for the supermatrix.
 - The iqtree (contree, treefile, iqtree) files are also included. 
 
 - Beauti-Beast show the trees created in Beauti and Beast, files and pictures included. 
+
+- The Difference between before and after resolving folders is before contains homo_sapiens in the fasta and pictures, thus making the trees not reliable, where after resolving has homo_sapiens (just homo_sapiens and not the other homo_sapiens_) removed, the trees are much more reliable. 
