@@ -1,4 +1,4 @@
-Beauti-Beast Overview:
+Before Resolving Overview:
 
 - Contain two folders: supermax has a chain length of one million and supermax_long has a chain length of ten million.
 
