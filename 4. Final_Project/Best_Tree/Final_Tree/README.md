@@ -1,4 +1,3 @@
 Final Tree Overview:
 
-- The absolute best tree is Treefile's Color_posterior_branch is a rooted colored tree that has the branch length values and is colored according to posterior values, this tree does not use cladogram.
-- 
+- The absolute best tree is Lucidum, this is a rooted tree with posterior values and colored according to organisms with and without lucidum. 
