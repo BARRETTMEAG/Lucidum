@@ -1,0 +1,336 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: SM/new_core_region.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 323476
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 51 sequences with 15883 nucleotide sites
+Number of constant sites: 4786 (= 30.1328% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 4786 (= 30.1328% of all sites)
+Number of parsimony informative sites: 9040
+Number of distinct site patterns: 9982
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+R4
+
+Rate parameter R:
+
+  A-C: 2.1198
+  A-G: 10.7147
+  A-T: 2.0082
+  C-G: 0.6704
+  C-T: 17.0079
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3197
+  pi(C) = 0.2749
+  pi(G) = 0.1322
+  pi(T) = 0.2732
+
+Rate matrix Q:
+
+  A   -0.5918    0.1354     0.329    0.1275
+  C    0.1574    -1.258   0.02059      1.08
+  G    0.7956   0.04281   -0.9019   0.06347
+  T    0.1491     1.086   0.03071    -1.266
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.4379,0.03991) (0.1747,0.5001) (0.2267,1.568) (0.1607,3.358)
+
+ Category  Relative_rate  Proportion
+  1         0.03991        0.4379
+  2         0.5001         0.1747
+  3         1.568          0.2267
+  4         3.358          0.1607
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -303427.4910 (s.e. 2033.7131)
+Unconstrained log-likelihood (without tree): -123691.2340
+Number of free parameters (#branches + #model parameters): 113
+Akaike information criterion (AIC) score: 607080.9820
+Corrected Akaike information criterion (AICc) score: 607082.6159
+Bayesian information criterion (BIC) score: 607948.0316
+
+Total tree length (sum of branch lengths): 17.6264
+Sum of internal branch lengths: 2.3914 (13.5671% of tree length)
+
+WARNING: 1 too long branches (>9.8000) should be treated with caution!
+NOTE: Tree is UNROOTED although outgroup taxon 'Alouatta_caraya' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / aBayes support / ultrafast bootstrap support (%)
+
++--Alouatta_caraya
+|
+|        +--Aotus_nancymaae
+|     +--| (16.1/0.795/66)
+|     |  |  +--Cebus_imitator
+|     |  +--| (100/1/100)
+|     |     +--Sapajus_xanthosternos
+|  +--| (100/1/99)
+|  |  |     +--Callithrix_geoffroyi
+|  |  |  +--| (100/1/100)
+|  |  |  |  +--Mico_argentatus
+|  |  +--| (100/1/100)
+|  |     |  +--Leontopithecus_rosalia
+|  |     +--| (45.1/0.984/77)
+|  |        +--Saguinus_oedipus
++--| (100/1/100)
+|  |                       +--Avahi_laniger
+|  |                    +--| (100/1/100)
+|  |                    |  +--Palaeopropithecus_ingens
+|  |                 +--| (87.2/1/88)
+|  |                 |  |     +--Cheirogaleus_sibreei
+|  |                 |  |  +--| (12.7/0.728/62)
+|  |                 |  |  |  +--Phaner_electromontis
+|  |                 |  +--| (100/1/100)
+|  |                 |     +--Lepilemur_aeeclis
+|  |              +--| (100/1/100)
+|  |              |  |           +--Eulemur_macaco_macaco
+|  |              |  |        +--| (100/1/100)
+|  |              |  |        |  +--Eulemur_rufus
+|  |              |  |     +--| (100/1/100)
+|  |              |  |     |  |     +--Hapalemur_griseus_griseus
+|  |              |  |     |  |  +--| (98.7/1/99)
+|  |              |  |     |  |  |  +--Prolemur_simus
+|  |              |  |     |  +--| (100/1/100)
+|  |              |  |     |     +--Lemur_catta
+|  |              |  |  +--| (100/1/100)
+|  |              |  |  |  +--Pachylemur_jullyi
+|  |              |  +--| (100/1/100)
+|  |              |     +--Megaladapis_edwardsi
+|  |           +--| (100/1/92)
+|  |           |  |        +--Galagoides_thomasi
+|  |           |  |     +--| (83.7/0.99/67)
+|  |           |  |     |  +--Loris_lydekkerianus_lydekkerianus
+|  |           |  |  +--| (100/1/67)
+|  |           |  |  |  +--Xanthonycticebus_pygmaeus
+|  |           |  +--| (100/1/91)
+|  |           |     +--Perodicticus_potto_edwarsi
+|  |        +--| (3/0.609/50)
+|  |        |  +--Tarsius_wallacei
+|  |     +--| (100/1/100)
+|  |     |  +--Cynocephalus_volans
+|  |  +--| (100/1/100)
+|  |  |  |              +--Cercocebus_atys_atys
+|  |  |  |           +--| (100/1/100)
+|  |  |  |           |  +--Macaca_tonkeana
+|  |  |  |        +--| (99.9/1/100)
+|  |  |  |        |  |  +--Lophocebus_aterrimus
+|  |  |  |        |  +--| (100/1/100)
+|  |  |  |        |     |  +--Papio_papio
+|  |  |  |        |     +--| (100/1/100)
+|  |  |  |        |        +--Papio_ursinus
+|  |  |  |     +--| (100/1/100)
+|  |  |  |     |  +--Miopithecus_talapoin
+|  |  |  |  +--| (100/1/100)
+|  |  |  |  |  |           +--Nasalis_larvatus
+|  |  |  |  |  |        +--| (100/1/100)
+|  |  |  |  |  |        |  +--Simias_concolor
+|  |  |  |  |  |     +--| (100/1/100)
+|  |  |  |  |  |     |  +--Rhinopithecus_bieti
+|  |  |  |  |  |  +--| (100/1/100)
+|  |  |  |  |  |  |  +--Semnopithecus_entellus
+|  |  |  |  |  +--| (100/1/100)
+|  |  |  |  |     +--Piliocolobus_badius
+|  |  |  +--| (100/1/100)
+|  |  |     |        +--Gorilla_gorilla_gorilla
+|  |  |     |     +--| (100/1/100)
+|  |  |     |     |  |     +--Homo_heidelbergensis
+|  |  |     |     |  |  +--| (84.5/0.771/77)
+|  |  |     |     |  |  |  +--------------------------------------------------------Homo_sapiens
+|  |  |     |     |  +--| (100/1/100)
+|  |  |     |     |     +--Pan_troglodytes_ellioti
+|  |  |     |  +--| (100/1/100)
+|  |  |     |  |  +--Pongo_pygmaeus
+|  |  |     +--| (100/1/100)
+|  |  |        |  +--Hylobates_pileatus
+|  |  |        +--| (100/1/100)
+|  |  |           +--Nomascus_leucogenys
+|  +--| (97.4/1/96)
+|     |        +--Cheracebus_lucifer
+|     |     +--| (100/1/100)
+|     |     |  |  +--Cheracebus_lugens
+|     |     |  +--| (100/1/100)
+|     |     |     +--Xenothrix_mcgregori
+|     |  +--| (100/1/100)
+|     |  |  +--Plecturocebus_bernhardi
+|     +--| (100/1/100)
+|        |  +--Chiropotes_sagulatus
+|        +--| (100/1/100)
+|           +--Pithecia_vanzolinii
+|
++--Brachyteles_arachnoides
+
+Tree in newick format:
+
+(Alouatta_caraya:0.0912135093,(((Aotus_nancymaae:0.1067469298,(Cebus_imitator:0.0529238503,Sapajus_xanthosternos:0.0491181569)100/1/100:0.0983222979)16.1/0.795/66:0.0085540541,((Callithrix_geoffroyi:0.0623578760,Mico_argentatus:0.0524999843)100/1/100:0.0680820228,(Leontopithecus_rosalia:0.1455218311,Saguinus_oedipus:0.1499901651)45.1/0.984/77:0.0136745717)100/1/100:0.0359843491)100/1/99:0.0128748456,((((((((Avahi_laniger:0.1959316908,Palaeopropithecus_ingens:0.1272997027)100/1/100:0.0525148629,((Cheirogaleus_sibreei:0.1516757338,Phaner_electromontis:0.2193408386)12.7/0.728/62:0.0165636373,Lepilemur_aeeclis:0.2115620601)100/1/100:0.0232462697)87.2/1/88:0.0135717376,((((Eulemur_macaco_macaco:0.0431124685,Eulemur_rufus:0.0402872113)100/1/100:0.0637187106,((Hapalemur_griseus_griseus:0.0657628347,Prolemur_simus:0.0583759389)98.7/1/99:0.0147752232,Lemur_catta:0.0600310307)100/1/100:0.0363842983)100/1/100:0.0289461059,Pachylemur_jullyi:0.1500328474)100/1/100:0.0397208549,Megaladapis_edwardsi:0.2091091699)100/1/100:0.0251948265)100/1/100:0.1008580047,(((Galagoides_thomasi:0.2793920224,Loris_lydekkerianus_lydekkerianus:0.0850169192)83.7/0.99/67:0.0614540271,Xanthonycticebus_pygmaeus:0.1595913708)100/1/67:0.0660538843,Perodicticus_potto_edwarsi:0.1759473061)100/1/91:0.1481491983)100/1/92:0.0375728626,Tarsius_wallacei:0.3245485080)3/0.609/50:0.0256125909,Cynocephalus_volans:0.3455461833)100/1/100:0.1335791757,(((((Cercocebus_atys_atys:0.0888860328,Macaca_tonkeana:0.0979837358)100/1/100:0.0151954389,(Lophocebus_aterrimus:0.0636596130,(Papio_papio:0.0258429244,Papio_ursinus:0.0241470437)100/1/100:0.0391589222)100/1/100:0.0553297683)99.9/1/100:0.0178253674,Miopithecus_talapoin:0.1175352399)100/1/100:0.0455632085,((((Nasalis_larvatus:0.0293953669,Simias_concolor:0.0279729889)100/1/100:0.0572339380,Rhinopithecus_bieti:0.0856280928)100/1/100:0.0224830735,Semnopithecus_entellus:0.1127625119)100/1/100:0.0288683383,Piliocolobus_badius:0.1212199433)100/1/100:0.0664835577)100/1/100:0.0747321528,(((Gorilla_gorilla_gorilla:0.0694299936,((Homo_heidelbergensis:0.0331364209,Homo_sapiens:10.0088852178)84.5/0.771/77:0.0170304474,Pan_troglodytes_ellioti:0.0502813792)100/1/100:0.0175585733)100/1/100:0.0429598669,Pongo_pygmaeus:0.1177681389)100/1/100:0.0294163656,(Hylobates_pileatus:0.0630465408,Nomascus_leucogenys:0.0617915620)100/1/100:0.0760820021)100/1/100:0.0618546730)100/1/100:0.0962377156)100/1/100:0.1918583705,(((Cheracebus_lucifer:0.0211619698,(Cheracebus_lugens:0.0006152465,Xenothrix_mcgregori:0.0325264095)100/1/100:0.0218996355)100/1/100:0.0669748238,Plecturocebus_bernhardi:0.0930800571)100/1/100:0.0880174274,(Chiropotes_sagulatus:0.0970843638,Pithecia_vanzolinii:0.0781828364)100/1/100:0.0722853123)100/1/100:0.0195713337)97.4/1/96:0.0108002652)100/1/100:0.0305771725,Brachyteles_arachnoides:0.1000787865);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -303427.423149
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Alouatta_caraya
+|
+|        +--Aotus_nancymaae
+|     +--| (66)
+|     |  |  +--Cebus_imitator
+|     |  +--| (100)
+|     |     +--Sapajus_xanthosternos
+|  +--| (99)
+|  |  |     +--Callithrix_geoffroyi
+|  |  |  +--| (100)
+|  |  |  |  +--Mico_argentatus
+|  |  +--| (100)
+|  |     |  +--Leontopithecus_rosalia
+|  |     +--| (77)
+|  |        +--Saguinus_oedipus
++--| (100)
+|  |                       +--Avahi_laniger
+|  |                    +--| (100)
+|  |                    |  +--Palaeopropithecus_ingens
+|  |                 +--| (88)
+|  |                 |  |     +--Cheirogaleus_sibreei
+|  |                 |  |  +--| (62)
+|  |                 |  |  |  +--Phaner_electromontis
+|  |                 |  +--| (100)
+|  |                 |     +--Lepilemur_aeeclis
+|  |              +--| (100)
+|  |              |  |           +--Eulemur_macaco_macaco
+|  |              |  |        +--| (100)
+|  |              |  |        |  +--Eulemur_rufus
+|  |              |  |     +--| (100)
+|  |              |  |     |  |     +--Hapalemur_griseus_griseus
+|  |              |  |     |  |  +--| (99)
+|  |              |  |     |  |  |  +--Prolemur_simus
+|  |              |  |     |  +--| (100)
+|  |              |  |     |     +--Lemur_catta
+|  |              |  |  +--| (100)
+|  |              |  |  |  +--Pachylemur_jullyi
+|  |              |  +--| (100)
+|  |              |     +--Megaladapis_edwardsi
+|  |           +--| (92)
+|  |           |  |        +--Galagoides_thomasi
+|  |           |  |     +--| (67)
+|  |           |  |     |  +--Loris_lydekkerianus_lydekkerianus
+|  |           |  |  +--| (67)
+|  |           |  |  |  +--Xanthonycticebus_pygmaeus
+|  |           |  +--| (91)
+|  |           |     +--Perodicticus_potto_edwarsi
+|  |        +--| (50)
+|  |        |  +--Tarsius_wallacei
+|  |     +--| (100)
+|  |     |  +--Cynocephalus_volans
+|  |  +--| (100)
+|  |  |  |              +--Cercocebus_atys_atys
+|  |  |  |           +--| (100)
+|  |  |  |           |  +--Macaca_tonkeana
+|  |  |  |        +--| (100)
+|  |  |  |        |  |  +--Lophocebus_aterrimus
+|  |  |  |        |  +--| (100)
+|  |  |  |        |     |  +--Papio_papio
+|  |  |  |        |     +--| (100)
+|  |  |  |        |        +--Papio_ursinus
+|  |  |  |     +--| (100)
+|  |  |  |     |  +--Miopithecus_talapoin
+|  |  |  |  +--| (100)
+|  |  |  |  |  |           +--Nasalis_larvatus
+|  |  |  |  |  |        +--| (100)
+|  |  |  |  |  |        |  +--Simias_concolor
+|  |  |  |  |  |     +--| (100)
+|  |  |  |  |  |     |  +--Rhinopithecus_bieti
+|  |  |  |  |  |  +--| (100)
+|  |  |  |  |  |  |  +--Semnopithecus_entellus
+|  |  |  |  |  +--| (100)
+|  |  |  |  |     +--Piliocolobus_badius
+|  |  |  +--| (100)
+|  |  |     |        +--Gorilla_gorilla_gorilla
+|  |  |     |     +--| (100)
+|  |  |     |     |  |     +--Homo_heidelbergensis
+|  |  |     |     |  |  +--| (77)
+|  |  |     |     |  |  |  +--------------------------------------------------------Homo_sapiens
+|  |  |     |     |  +--| (100)
+|  |  |     |     |     +--Pan_troglodytes_ellioti
+|  |  |     |  +--| (100)
+|  |  |     |  |  +--Pongo_pygmaeus
+|  |  |     +--| (100)
+|  |  |        |  +--Hylobates_pileatus
+|  |  |        +--| (100)
+|  |  |           +--Nomascus_leucogenys
+|  +--| (96)
+|     |        +--Cheracebus_lucifer
+|     |     +--| (100)
+|     |     |  |  +--Cheracebus_lugens
+|     |     |  +--| (100)
+|     |     |     +--Xenothrix_mcgregori
+|     |  +--| (100)
+|     |  |  +--Plecturocebus_bernhardi
+|     +--| (100)
+|        |  +--Chiropotes_sagulatus
+|        +--| (100)
+|           +--Pithecia_vanzolinii
+|
++--Brachyteles_arachnoides
+
+
+Consensus tree in newick format: 
+
+(Alouatta_caraya:0.0912117257,(((Aotus_nancymaae:0.1067444813,(Cebus_imitator:0.0529235122,Sapajus_xanthosternos:0.0491164809)100:0.0983192493)66:0.0085542571,((Callithrix_geoffroyi:0.0623566109,Mico_argentatus:0.0524987208)100:0.0680803595,(Leontopithecus_rosalia:0.1455185338,Saguinus_oedipus:0.1499871382)77:0.0136744227)100:0.0359835412)99:0.0128741115,((((((((Avahi_laniger:0.1959282671,Palaeopropithecus_ingens:0.1272976467)100:0.0525138857,((Cheirogaleus_sibreei:0.1516727265,Phaner_electromontis:0.2193364730)62:0.0165631424,Lepilemur_aeeclis:0.2115583479)100:0.0232445370)88:0.0135729581,((((Eulemur_macaco_macaco:0.0431116103,Eulemur_rufus:0.0402855669)100:0.0637170836,((Hapalemur_griseus_griseus:0.0657614140,Prolemur_simus:0.0583749764)99:0.0147749319,Lemur_catta:0.0600293953)100:0.0363834988)100:0.0289455868,Pachylemur_jullyi:0.1500297197)100:0.0397195367,Megaladapis_edwardsi:0.2091050561)100:0.0251943486)100:0.1008529916,(((Galagoides_thomasi:0.2793702727,Loris_lydekkerianus_lydekkerianus:0.0850799785)67:0.0613856320,Xanthonycticebus_pygmaeus:0.1595894611)67:0.0660531098,Perodicticus_potto_edwarsi:0.1759424767)91:0.1481462618)92:0.0375715656,Tarsius_wallacei:0.3245413406)50:0.0256105994,Cynocephalus_volans:0.3455399579)100:0.1335754592,(((((Cercocebus_atys_atys:0.0888831197,Macaca_tonkeana:0.0979817403)100:0.0151951661,(Lophocebus_aterrimus:0.0636581277,(Papio_papio:0.0258413293,Papio_ursinus:0.0241455645)100:0.0391582127)100:0.0553285929)100:0.0178239913,Miopithecus_talapoin:0.1175324987)100:0.0455617463,((((Nasalis_larvatus:0.0293942836,Simias_concolor:0.0279717050)100:0.0572323429,Rhinopithecus_bieti:0.0856257402)100:0.0224821288,Semnopithecus_entellus:0.1127592563)100:0.0288678708,Piliocolobus_badius:0.1212174318)100:0.0664819256)100:0.0747293986,(((Gorilla_gorilla_gorilla:0.0694263790,((Homo_heidelbergensis:0.0208645109,Homo_sapiens:9.9999982485)77:0.0292737416,Pan_troglodytes_ellioti:0.0502879234)100:0.0175575020)100:0.0429652020,Pongo_pygmaeus:0.1177651216)100:0.0294165778,(Hylobates_pileatus:0.0630451293,Nomascus_leucogenys:0.0617898048)100:0.0760793617)100:0.0618533208)100:0.0962355952)100:0.1918527835,(((Cheracebus_lucifer:0.0211611950,(Cheracebus_lugens:0.0006155438,Xenothrix_mcgregori:0.0325250124)100:0.0218975503)100:0.0669731529,Plecturocebus_bernhardi:0.0930780432)100:0.0880163774,(Chiropotes_sagulatus:0.0970824667,Pithecia_vanzolinii:0.0781805416)100:0.0722842060)100:0.0195704115)96:0.0107996335)100:0.0305766396,Brachyteles_arachnoides:0.1000758913);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t SM/new_core_region.fasta.treefile -m "GTR{2.11982,10.7147,2.00818,0.670445,17.0079}+F{0.31967,0.274893,0.132193,0.273244}+R4{0.437876,0.0399077,0.174678,0.500126,0.226749,1.56793,0.160697,3.3581}" --length 15883
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s SM/new_core_region.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s SM/new_core_region.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Nov 26 15:52:30 2025
+Total CPU time used: 379.31692 seconds (0h:6m:19s)
+Total wall-clock time used: 164.2753408 seconds (0h:2m:44s)
+
