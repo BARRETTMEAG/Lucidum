@@ -2,6 +2,8 @@ NGPhy Tree Overview:
 
 - These trees were created in NGPhylogeny.
 
-- SM.svg, shows the tree as it is "supposed to be". This is not rooted and without posterior values. 
+- Before Resolving is what the supermatrix looked liked before removing homo_sapiens.
 
-- SM.nhx... was also created in NGPhylogeny, the tree isrooted and without posterior values. 
+- After Resolving is what the supermatrix looked like after removing homo_sapaiens.
+
+- Both contain pictures of trees. 
