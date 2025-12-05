@@ -13,7 +13,7 @@ SuperMatrix contains the alignment of all of the taxa.
 
    To create the supermatrix, this website and program was super helpful: https://github.com/andrewbudge/Liger. Thank you, Andrew!
 
-4. Final Project contains the final trees found in Final SM and tree data containing the fasta file and taxa list.
+4. Final Project contains the final trees found in Best_Tree and SM_tree_data containing the fasta file and taxa list.
    
    - Final SM contains trees from Beauti-Beast, NGPhylogeny, Iqtree, and the pictures from all of these files.
     
