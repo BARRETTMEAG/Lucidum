@@ -1,6 +1,6 @@
 Lucidum Overview:
     
-      - This project aims to identify which species among primates (50 taxa) possess or lack tapetum lucidum. The genes that we are using are: IRBP, MC1R, RAG2, Mitochondria, and G6PD.
+    - This project aims to identify which species among primates (50 taxa) possess or lack tapetum lucidum. The genes that we are using are: IRBP, MC1R, RAG2, Mitochondria, and G6PD.
 
 The folders are broken down as follows:
 
