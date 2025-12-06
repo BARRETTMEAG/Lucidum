@@ -11,7 +11,7 @@ The folders are broken down as follows:
 
    0. Reading includes 15 papers and 3 peer reviews that have been found during researching this project. 
 
-   1. Datasets contains: raw nucleotide data for different species that our group has gathered. The R studio code has been included, showing how these nucleotide data was taken, trimmed, and then became Aligned. 
+   1. Datasets contains: raw nucleotide data for different genes that our group has gathered. The R studio code has been included, showing how these nucleotide data was taken, trimmed, and then became Aligned. 
 
    2. Alignments contains the genetics after trimming and aligning in R. 
       - SuperMatrix contains the alignment of all of the taxa. 
@@ -23,7 +23,7 @@ The folders are broken down as follows:
    
       - Final SM contains trees from NGPhylogeny R Code, Iqtree, and the pictures from all of these files.
     
-      - NGPhylogeny are the beginning trees. They were created in NGPhlogeny and although they do not     contain bootstrap values, their structure is still appliciable.
+      - NGPhylogeny are the beginning trees. They were created in NGPhlogeny and although they do not contain bootstrap values, their structure is still appliciable.
        
       - SM_ Iqtree is the computer program that allowed for getting the Bayesian posterior values that helped us know the confidence of the trees.  
 
