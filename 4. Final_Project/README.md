@@ -1,12 +1,12 @@
 4. Final Project Overview:
 
-- Final Project folder contains Final SM, this has information and pictures from the different files that were used: NGPhylogeny, Beauti-Beast, iqtree, R, etc. 
+ - Final Project folder contains Final SM, this has information and pictures from the different files that were used: NGPhylogeny, Beauti-Beast, iqtree, R, etc. 
 
-- SM tree data contains the fasta file and name of the final taxa.
+ - SM tree data contains the fasta file and name of the final taxa.
 
-- Best Tree shows the tree that can be considered the best among all the other trees. 
+ - Best Tree shows the tree that can be considered the best among all the other trees. 
 
-- Our Project Presentation is also used. 
+ - Our Project Presentation is also used. 
 
 Disclaimer:
  - Despite multiple attempts to group certain organisms in the same group and in a certain order, issues would arise in R, Beauti-Beast, and NGPhylogeny causing the trees to take incorrect shapes.
