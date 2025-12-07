@@ -1,6 +1,15 @@
 Best Tree Overview:
 
-- Best_tree shows the treefile and contree files and pictures that were created in iqtree after several unsuccessful attempts. Iqtree has proven to be the most useful and less troublesome of all of the other technology/program systems. 
+- Best_tree shows the treefile and contree files and pictures that were created in iqtree after several unsuccessful attempts. Iqtree has proven to be the most useful and less troublesome of all of the other technology/program systems.
+
+
+Final Tree:
+
+- Contains Pictures of the Trees that are the best of the best.
+
+- Lucidum is a rooted tree from Treefile that was modified in R to show the different bootstrap values. Also, shows which organisms are with and without lucidum. 
+
+- Lucidum_branch contains both bootstrap and branch length values. This indicates the length of the branches and which organisms are with and without lucidum. 
 
 
 In Pictures: 
