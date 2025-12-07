@@ -2,6 +2,8 @@ Best Tree Overview:
 
 - Best_tree shows the treefile and contree files and pictures that were created in iqtree after several unsuccessful attempts. Iqtree has proven to be the most useful and less troublesome of all of the other technology/program systems.
 
+  - Best Tree contains: Final Tree and Pictures. 
+
 
 Final Tree:
 
