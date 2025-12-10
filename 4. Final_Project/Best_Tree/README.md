@@ -23,7 +23,7 @@ In Pictures:
 
 - Treefile's Color_posterior_branch is a rooted colored tree that has branch length values and colored according to posterior values, this tree does not use cladogram.
 
-- There is a picture that combined both iqtree's treefile and R, although it does not have the posterior values, but shows the data we wanted for which species have lucidum and which do not (Lucidum.pdf).
+- Lucidum is a picture that combined iqtree's treefile and R, although it does not have the posterior values, but shows the data we wanted for which species have lucidum and which do not.
 
 - Each tree has its own individual values. The treefile: cladogram_node_colored does a good job of depicting the posterior values.
 
