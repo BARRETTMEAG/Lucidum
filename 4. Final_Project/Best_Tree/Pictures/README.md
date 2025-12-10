@@ -1,2 +1,2 @@
 Pictures Overview: 
-- When comparing Treefile vs. Contree, there are many similaries. The values are similar, along with the structures.
+- Contains files: Treefile and Contree, with many similaries in their pictures. 
