@@ -1,5 +1,5 @@
 Treefile Overview:
 
-- Treefile shows the treefile that was used to create the trees. 
+- Treefile shows treefile used to create the trees. 
 
-- Treefile_Pictures show the tree pictures created by treefile.
+- Treefile_Pictures show tree pictures created by treefile.
